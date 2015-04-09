@@ -1,11 +1,11 @@
 ---
 layout: base
-title: Get Started with Font Awesome
+title: Начало работы с Font Awesome
 navbar_active: get-started
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="fa fa-cogs"></i>&nbsp; Get Started{% endcapture %}
-{% capture jumbotron_p %}Easy ways to get Font Awesome {{ site.fontawesome.version }} onto your website{% endcapture %}
+{% capture jumbotron_h1 %}<i class="fa fa-cogs"></i>&nbsp; Начало работы{% endcapture %}
+{% capture jumbotron_p %}Легкие и быстрые способы подключить Font Awesome {{ site.fontawesome.version }} на ваш сайт{% endcapture %}
 
 {% include jumbotron.html %}
 {% include stripe-social.html %}
@@ -13,76 +13,75 @@ relative_path: ../
 <div class="container">
   {% capture stripe_ad_content %}
   <p class="lead">
-    Setting up Font Awesome can be as simple as adding two lines of code to your website, or you can be a pro and
-    customize the LESS yourself! Font Awesome even plays nicely with
+    Настройка Font Awesome очень проста - это подключение двух строк кода в вашем вебсайте. Если вы профессионал,
+    то можете персонализировать Font Awesome с помощью LESS. Font Awesome прекрасно работает с
     <a href="{{ site.bootstrap.url }}">Bootstrap 3</a>!
   </p>
   {% endcapture %}
   {% include stripe-ad.html %}
 
   <div id="bootstrapcdn">
-    <h2 class="page-header">EASIEST: <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN</a> by <a href="http://maxcdn.com">MaxCDN</a></h2>
-    <p>Thanks to the generous folks at <a href="http://maxcdn.com">MaxCDN</a>, you can use Bootstrap CDN to add Font Awesome into your website with a single line of code. You don't even have to download or install anything!</p>
+    <h2 class="page-header">Быстро: <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN</a> от <a href="http://maxcdn.com">MaxCDN</a></h2>
+    <p>Благодаря прекрасной команде <a href="http://maxcdn.com">MaxCDN</a>, вы можете использовать Bootstrap CDN для подключения Font Awesome и это займет у вас всего лишь одну строчку кода. Кроме этого вам больше ничего не понадобится скачивать или устанавливать!</p>
     <ol>
       <li>
-        Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
+        Вставьте нижеследующий код в тег <code>&lt;head&gt;</code> в HTML вашего вебсайта.
 {% highlight html %}
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.min.css">
 {% endhighlight %}
-        <p class="alert alert-success"><i class="fa fa-info-circle"></i> Immediately after release, it takes a bit of time for BootstrapCDN to catch up and get the newest version live on their CDN.</p>
+        <p class="alert alert-success"><i class="fa fa-info-circle"></i> Когда появляется новая версия, то BootstrapCDN требуется некоторое время, чтобы обновить у себя версию font Awesome</p>
       </li>
       <li>
         Pat yourself on the back for your scalable-vector-icons-on-the-website
         <a href="http://37signals.com/svn/posts/312-lingo-judo">judo solution</a> in a single line of code.
       </li>
       <li>
-        Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!
+        Посмотрите <a href="{{ page.relative_path }}examples/">примеры</a> для начала работы с Font Awesome!
       </li>
     </ol>
   </div>
 
   <section id="default-css">
-    <h2 class="page-header">EASY: Default CSS</h2>
-    <p>Use this method to get the default Font Awesome CSS.</p>
+    <h2 class="page-header">Легко: Стандартный CSS</h2>
+    <p>Используйте данный метод, если вам нужен стандартный CSS Font Awesome.</p>
     <ol>
-      <li>Copy the entire <code>font-awesome</code> directory into your project.</li>
+      <li>Скопируйте полностью папку <code>font-awesome</code> в папку вашего проекта.</li>
       <li>
-        In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
+        В теге <code>&lt;head&gt;</code> вашего html, укажите путь до font-awesome.min.css.
 {% highlight html %}
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 {% endhighlight %}
       </li>
-      <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
+      <li>Посмотрите <a href="{{ page.relative_path }}examples/">примеры</a> для начала работы с Font Awesome!</li>
     </ol>
   </section>
 
   <section id="ruby-gem-less">
-    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-less">LESS Ruby Gem</a></h2>
+    <h2 class="page-header">Просто: <a href="https://github.com/FortAwesome/font-awesome-less">LESS Ruby Gem</a></h2>
     <p>
-      Use the <a href="https://github.com/FortAwesome/font-awesome-less">Official Font Awesome LESS Ruby Gem</a> to easily get Font
-      Awesome LESS into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+      Используйте <a href="https://github.com/FortAwesome/font-awesome-less">официальный Ruby гем Font Awesome LESS</a> для легкого подключения Font Awesome LESS в ваш Rails проект. Занимается поддержкой: <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
     </p>
     <ol>
       <li>
-        Add this line to your application's Gemfile:
+        Добавьте нижеуказанную строку в Gemfile вашего проекта:
 {% highlight bash %}
 gem 'font-awesome-less'
 {% endhighlight %}
       </li>
       <li>
-        And then execute:
+        Далее запустите:
 {% highlight bash %}
 $ bundle
 {% endhighlight %}
       </li>
-      <li>Or install it yourself as:
+      <li>Или установите в ручную:
 {% highlight bash %}
 $ gem install font-awesome-less
 {% endhighlight %}
       </li>
     </ol>
     <p>
-    If you use Rails, add this to your e.g. <code>application.less</code>:
+    Если вы используете Rails, то вставьте нижеуказанный код, например, в файл <code>application.less</code>:
     </p>
 {% highlight css %}
   @import "font-awesome-sprockets";
@@ -91,32 +90,31 @@ $ gem install font-awesome-less
   </section>
 
   <section id="ruby-gem-sass">
-    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-sass">SASS Ruby Gem</a></h2>
+    <h2 class="page-header">Изящно: <a href="https://github.com/FortAwesome/font-awesome-sass">SASS Ruby Gem</a></h2>
     <p>
-      Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome SASS Ruby Gem</a> to easily get Font
-      Awesome SASS into a Rails or Compass project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+      Используйте <a href="https://github.com/FortAwesome/font-awesome-sass">официальный Ruby гем Font Awesome SASS</a> для легкого подключения Font Awesome SASS в ваш Rails или Compass проект. Занимается поддержкой: <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
     </p>
     <ol>
       <li>
-        Add this line to your application's Gemfile:
+         Добавьте нижеуказанную строку в Gemfile вашего проекта:
 {% highlight bash %}
 gem 'font-awesome-sass'
 {% endhighlight %}
       </li>
       <li>
-        And then execute:
+        Далее запустите:
 {% highlight bash %}
 $ bundle
 {% endhighlight %}
       </li>
-      <li>Or install it yourself as:
+      <li>Или установите в ручную:
 {% highlight bash %}
 $ gem install font-awesome-sass
 {% endhighlight %}
       </li>
     </ol>
     <p>
-    If you use Rails, add this to your e.g. <code>application.scss</code>:
+    Если вы используете Rails, то вставьте нижеуказанный код, например, в файл <code>application.scss</code>:
     </p>
 {% highlight css %}
   @import "font-awesome-sprockets";
@@ -125,26 +123,25 @@ $ gem install font-awesome-sass
   </section>
 
   <section id="custom-less">
-    <h2 class="page-header">PRO: Custom LESS or SASS</h2>
-    <p>Use this method to customize Font Awesome {{ site.fontawesome.version }} using LESS or SASS.</p>
+    <h2 class="page-header">Профи: Персональный LESS или SASS</h2>
+    <p>Используйте данный метод, если вы хотите внести измененния в Font Awesome {{ site.fontawesome.version }}, используя LESS или SASS.</p>
     <ol>
-      <li>Copy the <code>font-awesome/</code> directory into your project.</li>
+      <li>Скопируйте полностью папку <code>font-awesome</code> в папку вашего проекта.</li>
       <li>
-        Open your project's <code>font-awesome/less/variables.less</code> or <code>font-awesome/scss/_variables.scss</code> and edit the <code>@fa-font-path</code> or <code>$fa-font-path</code>
-        variable to point to your font directory.
+        В вашем проекте откройте файл <code>font-awesome/less/variables.less</code> или <code>font-awesome/scss/_variables.scss</code> и отредактируйте переменную <code>@fa-font-path</code> или <code>$fa-font-path</code>, чтобы задать папку со шрифтами.
 {% highlight scss %}
 @fa-font-path:   "../font";
 {% endhighlight %}
-        <p class="alert alert-success"><i class="fa fa-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
+        <p class="alert alert-success"><i class="fa fa-info-circle"></i> Путь к папке со шрифтами задается относительно папки со скомпилированным CSS.</p>
       </li>
-      <li>Re-compile your LESS or SASS if using a static compiler. Otherwise, you should be good to go.</li>
-      <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
+      <li>Перекомпилируйте LESS или SASS, если используете статический компилятор. В противном случае, все будет работать без ваших усилий.</li>
+      <li>Посмотрите <a href="{{ page.relative_path }}examples/">примеры</a> для начала работы с Font Awesome!</li>
     </ol>
   </section>
 
   <section id="support-validators">
-    <h2 class="page-header">Validators</h2>
-    <p>In order to provide the best possible experience to old and buggy browsers, Font Awesome uses <a href="http://browserhacks.com">CSS browser hacks</a> in several places to target special CSS to certain browser versions in order to work around bugs in the browsers themselves. These hacks understandably cause CSS validators to complain that they are invalid. In a couple places, we also use bleeding-edge CSS features that aren't yet fully standardized, but these are used purely for progressive enhancement.</p>
+    <h2 class="page-header">Валидаторы</h2>
+    <p>Для того, чтобы обеспечить наилучший результат в старых и глючных браузерах, Font Awesome в некоторых случаях использует <a href="http://browserhacks.com">хаки CSS</a> для того, чтобы обойти глюки и ошибки в браузерах. Естественно, эти хаки вызывают предупреждения при проверке кода в валидаторах. Также, Font Awesome в нескольких ситуациях использует новые свойства CSS, которые еще не полностью стандартизированы, но используются они исключительно для прогрессивного улучшения</p>
     <p>These validation warnings don't matter in practice since the non-hacky portion of our CSS does fully validate and the hacky portions don't interfere with the proper functioning of the non-hacky portion, hence why we deliberately ignore these particular warnings.</p>
   </section>
 
