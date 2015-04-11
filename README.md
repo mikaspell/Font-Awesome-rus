@@ -1,4 +1,4 @@
-#[Font Awesome v4.3.0](http://fontawesome.io)
+#[Font Awesome v4.3.0](http://fontawesome.ru)
 ###The iconic font and CSS framework
 
 Font Awesome is a full suite of 519 pictographic icons for easy scalable vector graphics on websites,
@@ -6,7 +6,7 @@ created and maintained by [Dave Gandy](http://twitter.com/davegandy).
 Stay up to date with the latest release and announcements on Twitter:
 [@fontawesome](http://twitter.com/fontawesome).
 
-Get started at http://fontawesome.io!
+Get started at http://fontawesome.ru!
 
 ##License
 - The Font Awesome font is licensed under the SIL OFL 1.1:
