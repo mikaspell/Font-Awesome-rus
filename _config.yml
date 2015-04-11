@@ -23,7 +23,7 @@ fontawesome:
   minor_version:  4.3
   doc_blob:       v4.3.0
   url:            http://fontawesome.ru
-  legacy_url:     http://fortawesome.github.com/Font-Awesome/
+  legacy_url:     http://mikaspell.github.io/Font-Awesome-rus/
   blog_url:       http://blog.fontawesome.io
   twitter:        fontawesome
   tagline:        The iconic font and CSS toolkit
@@ -34,8 +34,8 @@ fontawesome:
     twitter:      davegandy
     github:       davegandy
   github:
-    url:          https://github.com/FortAwesome/Font-Awesome
-    project:      Font-Awesome
+    url:          https://github.com/mikaspell/Font-Awesome-rus
+    project:      Font-Awesome-rus
     org:          FortAwesome
   license:
     font:
