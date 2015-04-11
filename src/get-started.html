@@ -141,26 +141,22 @@ $ gem install font-awesome-sass
 
   <section id="support-validators">
     <h2 class="page-header">Валидаторы</h2>
-    <p>Для того, чтобы обеспечить наилучший результат в старых и глючных браузерах, Font Awesome в некоторых случаях использует <a href="http://browserhacks.com">хаки CSS</a> для того, чтобы обойти глюки и ошибки в браузерах. Естественно, эти хаки вызывают предупреждения при проверке кода в валидаторах. Также, Font Awesome в нескольких ситуациях использует новые свойства CSS, которые еще не полностью стандартизированы, но используются они исключительно для прогрессивного улучшения</p>
-    <p>These validation warnings don't matter in practice since the non-hacky portion of our CSS does fully validate and the hacky portions don't interfere with the proper functioning of the non-hacky portion, hence why we deliberately ignore these particular warnings.</p>
+    <p>Для того, чтобы обеспечить наилучший результат в старых и глючных браузерах, Font Awesome в некоторых случаях использует <a href="http://browserhacks.com">хаки CSS</a> для того, чтобы обойти глюки и ошибки в браузерах. Естественно, эти хаки вызывают предупреждения при проверке кода в валидаторах. Также, Font Awesome в нескольких ситуациях использует новые свойства CSS, которые еще не полностью стандартизированы, но используются они исключительно для прогрессивного улучшения.</p>
+    <p>
+    На практике эти предупреждения валидатора не имеют значения, так как большая часть CSS работает без хаков и, соответственно, они не принимают участие в работе тех участков, где они не используются. Собственно, поэтому мы и игнорируем эти предупреждения.</p>
   </section>
 
   <section class="need-ie7">
-    <h2 class="page-header">Need IE7 Support?</h2>
+    <h2 class="page-header">Необходима поддержка IE7?</h2>
     <p>
-      If you need IE7 support, you have my condolences. Really. Font Awesome {{ site.fontawesome.version }}
-      doesn't support IE7, but an older version does. You'll need to check out the
-      <a href="{{ page.relative_path }}3.2.1/get-started/#need-ie7">3.2.1 instructions for using IE7</a>. Then go complain to
-      whomever decided your project needs IE7 support.
+      Если вам нужна поддержка IE7, то примите мои соболезнования. Ну правда. Font Awesome {{ site.fontawesome.version }} не поддерживает IE7 и версии ниже. Вам необходимо прочитать <a href="{{ page.relative_path }}3.2.1/get-started/#need-ie7">инструкции по FA 3.2.1 для использования в IE7</a>. Затем можете пойти и пожаловаться тому, кто потребовал поддержку IE7.
     </p>
   </section>
 
   <section id="troubleshooting">
-    <h2 class="page-header">Troubleshooting</h2>
+    <h2 class="page-header">Решение ошибок</h2>
     <p>
-      If you're having trouble with Font Awesome, make sure to check out the
-      <a href="{{ site.fontawesome.github.url }}/wiki/Troubleshooting">troubleshooting wiki page</a>.
-      Generously maintained by <a href="https://twitter.com/gtagliala">@gtagliala</a>.
+      Если у вас  возникли проблемы в работе с Font Awesome, то можете поискать решение на <a href="{{ site.fontawesome.github.url }}/wiki/Troubleshooting">wiki-странице по частым ошибкам</a>. Занимакется поддержкой: <a href="https://twitter.com/gtagliala">@gtagliala</a>.
     </p>
   </section>
 </div>
