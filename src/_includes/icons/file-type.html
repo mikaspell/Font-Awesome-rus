@@ -2,7 +2,7 @@
   <h2 class="page-header">Типы файлов</h2>
 
   <div class="row fontawesome-icon-list">
-    {% assign icons_file_type = icons | expand_aliases | category:"File Type Icons" | sort_by:'class' %}
+    {% assign icons_file_type = icons | expand_aliases | category:"Типы файлов" | sort_by:'class' %}
 
     {% for icon in icons_file_type %}
       <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> {{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(синоним)</span>{% endif %}</a></div>

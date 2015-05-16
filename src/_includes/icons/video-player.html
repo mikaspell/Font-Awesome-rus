@@ -2,7 +2,7 @@
   <h2 class="page-header">Видео-плеер</h2>
 
   <div class="row fontawesome-icon-list">
-    {% assign icons_video_player = icons | expand_aliases | category:"Video Player Icons" | sort_by:'class' %}
+    {% assign icons_video_player = icons | expand_aliases | category:"Видео-плеер" | sort_by:'class' %}
 
     {% for icon in icons_video_player %}
       <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> {{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(синоним)</span>{% endif %}</a></div>

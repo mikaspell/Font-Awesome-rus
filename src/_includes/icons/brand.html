@@ -6,7 +6,7 @@
   </div>
 
   <div class="row fontawesome-icon-list margin-bottom-lg">
-    {% assign icons_brand = icons | expand_aliases | category:"Brand Icons" | sort_by:'class' %}
+    {% assign icons_brand = icons | expand_aliases | category:"Бренды" | sort_by:'class' %}
 
     {% for icon in icons_brand %}
       <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> {{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(синоним)</span>{% endif %}</a></div>

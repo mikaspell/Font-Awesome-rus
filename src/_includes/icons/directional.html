@@ -2,7 +2,7 @@
   <h2 class="page-header">Направление</h2>
 
   <div class="row fontawesome-icon-list">
-    {% assign icons_directional = icons | expand_aliases | category:"Directional Icons" | sort_by:'class' %}
+    {% assign icons_directional = icons | expand_aliases | category:"Направление" | sort_by:'class' %}
 
     {% for icon in icons_directional %}
       <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> {{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(синоним)</span>{% endif %}</a></div>

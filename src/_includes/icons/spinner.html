@@ -12,7 +12,7 @@
   </div>
 
   <div class="row fontawesome-icon-list">
-    {% assign icons_spinner = icons | expand_aliases | category:"Spinner Icons" | sort_by:'class' %}
+    {% assign icons_spinner = icons | expand_aliases | category:"Вращающиеся иконки" | sort_by:'class' %}
 
     {% for icon in icons_spinner %}
       <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> {{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(синоним)</span>{% endif %}</a></div>
