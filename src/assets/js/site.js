@@ -65,7 +65,7 @@ $(function() {
   //   }
   // ];
 
-  selectFonticonsAd();
+  // selectFonticonsAd();
 
   // start the icon carousel
   $('#icon-carousel').carousel({
