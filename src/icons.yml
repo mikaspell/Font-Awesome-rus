@@ -1381,6 +1381,7 @@ icons:
       - hand
     categories:
       - Веб-приложения
+      - Иконки жестов
 
   - name:       Thumbs Down Outlined
     id:         thumbs-o-down
@@ -1393,6 +1394,7 @@ icons:
       - hand
     categories:
       - Веб-приложения
+      - Иконки жестов
 
   - name:       star-half
     id:         star-half
@@ -3454,6 +3456,7 @@ icons:
       - hand
     categories:
       - Веб-приложения
+      - Иконки жестов
 
   - name:       thumbs-down
     id:         thumbs-down
@@ -3466,6 +3469,7 @@ icons:
       - hand
     categories:
       - Веб-приложения
+      - Иконки жестов
 
   - name:       YouTube Square
     id:         youtube-square
