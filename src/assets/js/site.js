@@ -1,4 +1,5 @@
 $(function() {
+
   // var ads = [
   //   {
   //     quote: "Take your icon game to the next level. Check out <strong>Fonticons</strong>, from the maker of Font Awesome.",
@@ -30,9 +31,6 @@ $(function() {
   //     url: "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_5_custom_icons&utm_campaign=promo_4.3_update",
   //     btn_text: "Gimme Some!"
   //   },
-
-
-
   //   {
   //     quote: "So hot right now: <strong>Black Tie</strong>, the new multi-weight icon font from the maker of Font Awesome.",
   //     class: "black-tie",
@@ -72,13 +70,15 @@ $(function() {
     interval: 5000
   });
 
+  $('[data-toggle="popover"]').popover();
+
   var $filter_by = $('#filter-by');
 
   // Filter icons
   if($filter_by.length) {
     var $filter_val = $('#filter-val');
     var $filter = $('#filter');
-    var $other = $('#new, #web-application, #transportation, #gender, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand, #file-type, #spinner, #payment, #chart');
+    var $other = $('#new, #web-application, #hand, #transportation, #gender, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand, #file-type, #spinner, #payment, #chart');
     var $clear = $('#filter-clear');
     var $no_results = $('#no-search-results');
 
@@ -144,7 +144,8 @@ $(function() {
   $filter_by
     .val('')
     .trigger('input')
-    .trigger('keyup');
+    .trigger('keyup')
+    .focus();
 
   if ($clear) {
     $clear.addClass('hide'); // Hide clear button

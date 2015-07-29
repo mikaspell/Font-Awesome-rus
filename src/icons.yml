@@ -963,15 +963,15 @@ icons:
     id:         ban
     unicode:    f05e
     created:    1.0
+    filter:
       - delete
       - remove
       - trash
       - hide
       - block
       - stop
-    filter:
-      - block
       - abort
+      - cancel
     categories:
       - Веб-приложения
 
@@ -1037,7 +1037,9 @@ icons:
     unicode:    f066
     created:    1.0
     filter:
+      - collapse
       - combine
+      - contract
       - merge
       - smaller
     categories:
@@ -1196,6 +1198,7 @@ icons:
     created:    1.0
     filter:
       - sort
+      - shuffle
     categories:
       - Веб-приложения
 
@@ -1207,6 +1210,9 @@ icons:
       - speech
       - notification
       - note
+      - chat
+      - bubble
+      - feedback
     categories:
       - Веб-приложения
 
@@ -1372,6 +1378,7 @@ icons:
       - approve
       - favorite
       - agree
+      - hand
     categories:
       - Веб-приложения
 
@@ -1383,6 +1390,7 @@ icons:
       - dislike
       - disapprove
       - disagree
+      - hand
     categories:
       - Веб-приложения
 
@@ -1460,6 +1468,8 @@ icons:
     filter:
       - enter
       - join
+      - log in
+      - login
       - sign up
       - sign in
       - signin
@@ -1514,6 +1524,7 @@ icons:
        - voice
        - number
        - support
+       - earphone
     categories:
       - Веб-приложения
 
@@ -1612,8 +1623,9 @@ icons:
     unicode:    f09e
     created:    2.0
     filter:
-      - feed
       - blog
+    aliases:
+      - feed
     categories:
       - Веб-приложения
 
@@ -1818,6 +1830,7 @@ icons:
     filter:
       - expand
       - enlarge
+      - fullscreen
       - bigger
       - move
       - reorder
@@ -1939,6 +1952,7 @@ icons:
       - checklist
       - todo
       - list
+      - hamburger
     categories:
       - Веб-приложения
 
@@ -2126,11 +2140,11 @@ icons:
   - name:       Sort Descending
     id:         sort-desc
     unicode:    f0dd
+    created:    2.0
     filter:
       - dropdown
       - more
       - menu
-    created:    2.0
     aliases:
       - sort-down
     categories:
@@ -2150,6 +2164,7 @@ icons:
     id:         envelope
     unicode:    f0e0
     created:    2.0
+    filter:
       - email
       - e-mail
       - letter
@@ -2279,6 +2294,8 @@ icons:
     id:         exchange
     unicode:    f0ec
     created:    3.0
+    filter:
+      - transfer
     categories:
       - Веб-приложения
 
@@ -2394,6 +2411,7 @@ icons:
       - business
       - apartment
       - office
+      - company
     categories:
       - Веб-приложения
 
@@ -2426,6 +2444,7 @@ icons:
       - firstaid
       - help
       - support
+      - health
     categories:
       - Медицина
 
@@ -3432,6 +3451,7 @@ icons:
       - favorite
       - approve
       - agree
+      - hand
     categories:
       - Веб-приложения
 
@@ -3443,6 +3463,7 @@ icons:
       - dislike
       - disapprove
       - disagree
+      - hand
     categories:
       - Веб-приложения
 
@@ -3602,6 +3623,7 @@ icons:
     id:         windows
     unicode:    f17a
     created:    3.2
+    filter:
       - microsoft
     categories:
       - Бренды
@@ -3729,6 +3751,7 @@ icons:
     created:    3.2
     filter:
       - report
+      - insect
     categories:
       - Веб-приложения
 
@@ -3887,7 +3910,7 @@ icons:
     categories:
       - Веб-приложения
 
-  - name:       Wordpress Logo
+  - name:       WordPress Logo
     id:         wordpress
     unicode:    f19a
     created:    4.1
@@ -3917,6 +3940,10 @@ icons:
     created:    4.1
     aliases:
       - mortar-board
+    filter:
+      - learning
+      - school
+      - student
     categories:
       - Веб-приложения
 
@@ -4023,6 +4050,12 @@ icons:
     id:         building
     unicode:    f1ad
     created:    4.1
+    filter:
+      - work
+      - business
+      - apartment
+      - office
+      - company
     categories:
       - Веб-приложения
 
@@ -4038,6 +4071,8 @@ icons:
     id:         paw
     unicode:    f1b0
     created:    4.1
+    filter:
+      - pet
     categories:
       - Веб-приложения
 
@@ -4315,6 +4350,9 @@ icons:
     id:         hacker-news
     unicode:    f1d4
     created:    4.1
+    aliases:
+      - y-combinator-square
+      - yc-square
     categories:
       - Бренды
 
@@ -4371,8 +4409,6 @@ icons:
     id:         circle-thin
     unicode:    f1db
     created:    4.1
-    aliases:
-      - genderless
     categories:
       - Веб-приложения
       - Гендерные иконки
@@ -4502,7 +4538,7 @@ icons:
       - Бренды
       - Платежные системы
 
-  - name:       Goole Wallet
+  - name:       Google Wallet
     id:         google-wallet
     unicode:    f1ee
     created:    4.2
@@ -4915,6 +4951,8 @@ icons:
     id:         transgender
     unicode:    f224
     created:    4.3
+    aliases:
+      - intersex
     categories:
       - Гендерные иконки
 
@@ -4971,6 +5009,13 @@ icons:
     id:         neuter
     unicode:    f22c
     created:    4.3
+    categories:
+      - Гендерные иконки
+
+  - name:       Genderless
+    id:         genderless
+    unicode:    f22d
+    created:    4.4
     categories:
       - Гендерные иконки
 
@@ -5054,5 +5099,506 @@ icons:
     id:         medium
     unicode:    f23a
     created:    4.3
+    categories:
+      - Бренды
+
+  - name:       Y Combinator
+    id:         y-combinator
+    unicode:    f23b
+    created:    4.4
+    aliases:
+      - yc
+    categories:
+      - Бренды
+
+  - name:       Optin Monster
+    id:         optin-monster
+    unicode:    f23c
+    created:    4.4
+    url:        optinmonster.com
+    categories:
+      - Бренды
+
+  - name:       OpenCart
+    id:         opencart
+    unicode:    f23d
+    created:    4.4
+    url:        opencart.com
+    categories:
+      - Бренды
+
+  - name:       ExpeditedSSL
+    id:         expeditedssl
+    unicode:    f23e
+    created:    4.4
+    categories:
+      - Бренды
+
+
+  - name:       Battery Full
+    id:         battery-full
+    unicode:    f240
+    created:    4.4
+    aliases:
+      - battery-4
+    categories:
+      - Веб-приложения
+
+  - name:       Battery 3/4 Full
+    id:         battery-three-quarters
+    unicode:    f241
+    created:    4.4
+    aliases:
+      - battery-3
+    categories:
+      - Веб-приложения
+
+  - name:       Battery 1/2 Full
+    id:         battery-half
+    unicode:    f242
+    created:    4.4
+    aliases:
+      - battery-2
+    categories:
+      - Веб-приложения
+
+  - name:       Battery 1/4 Full
+    id:         battery-quarter
+    unicode:    f243
+    created:    4.4
+    aliases:
+      - battery-1
+    categories:
+      - Веб-приложения
+
+  - name:       Battery Empty
+    id:         battery-empty
+    unicode:    f244
+    created:    4.4
+    aliases:
+      - battery-0
+    categories:
+      - Веб-приложения
+
+  - name:       Mouse Pointer
+    id:         mouse-pointer
+    unicode:    f245
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       I Beam Cursor
+    id:         i-cursor
+    unicode:    f246
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Object Group
+    id:         object-group
+    unicode:    f247
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Object Ungroup
+    id:         object-ungroup
+    unicode:    f248
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Sticky Note
+    id:         sticky-note
+    unicode:    f249
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Sticky Note Outlined
+    id:         sticky-note-o
+    unicode:    f24a
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       JCB Credit Card
+    id:         cc-jcb
+    unicode:    f24b
+    created:    4.4
+    categories:
+      - Бренды
+      - Платежные системы
+
+  - name:       Diner's Club Credit Card
+    id:         cc-diners-club
+    unicode:    f24c
+    created:    4.4
+    categories:
+      - Бренды
+      - Платежные системы
+
+  - name:       Clone
+    id:         clone
+    unicode:    f24d
+    created:    4.4
+    filter:
+      - copy
+    categories:
+      - Веб-приложения
+
+  - name:       Balance Scale
+    id:         balance-scale
+    unicode:    f24e
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+
+  - name:       Hourglass Outlined
+    id:         hourglass-o
+    unicode:    f250
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Hourglass Start
+    id:         hourglass-start
+    unicode:    f251
+    created:    4.4
+    aliases:
+      - hourglass-1
+    categories:
+      - Веб-приложения
+
+  - name:       Hourglass Half
+    id:         hourglass-half
+    unicode:    f252
+    created:    4.4
+    aliases:
+      - hourglass-2
+    categories:
+      - Веб-приложения
+
+  - name:       Hourglass End
+    id:         hourglass-end
+    unicode:    f253
+    created:    4.4
+    aliases:
+      - hourglass-3
+    categories:
+      - Веб-приложения
+
+  - name:       Hourglass
+    id:         hourglass
+    unicode:    f254
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Rock (Hand)
+    id:         hand-rock-o
+    unicode:    f255
+    created:    4.4
+    aliases:
+      - hand-grab-o
+    categories:
+      - Веб-приложения
+      - Иконки жестов
+
+  - name:       Paper (Hand)
+    id:         hand-paper-o
+    unicode:    f256
+    created:    4.4
+    aliases:
+      - hand-stop-o
+    categories:
+      - Веб-приложения
+      - Иконки жестов
+
+  - name:       Scissors (Hand)
+    id:         hand-scissors-o
+    unicode:    f257
+    created:    4.4
+    categories:
+      - Веб-приложения
+      - Иконки жестов
+
+  - name:       Lizard (Hand)
+    id:         hand-lizard-o
+    unicode:    f258
+    created:    4.4
+    categories:
+      - Веб-приложения
+      - Иконки жестов
+
+  - name:       Spock (Hand)
+    id:         hand-spock-o
+    unicode:    f259
+    created:    4.4
+    categories:
+      - Веб-приложения
+      - Иконки жестов
+
+  - name:       Hand Pointer
+    id:         hand-pointer-o
+    unicode:    f25a
+    created:    4.4
+    categories:
+      - Веб-приложения
+      - Иконки жестов
+
+  - name:       Hand Peace
+    id:         hand-peace-o
+    unicode:    f25b
+    created:    4.4
+    categories:
+      - Веб-приложения
+      - Иконки жестов
+
+  - name:       Trademark
+    id:         trademark
+    unicode:    f25c
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Registered Trademark
+    id:         registered
+    unicode:    f25d
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Creative Commons
+    id:         creative-commons
+    unicode:    f25e
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+
+  - name:       GG Currency
+    id:         gg
+    unicode:    f260
+    created:    4.4
+    categories:
+      - Валюты
+      - Бренды
+
+  - name:       GG Currency Circle
+    id:         gg-circle
+    unicode:    f261
+    created:    4.4
+    categories:
+      - Валюты
+      - Бренды
+
+  - name:       TripAdvisor
+    id:         tripadvisor
+    unicode:    f262
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Odnoklassniki
+    id:         odnoklassniki
+    unicode:    f263
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Odnoklassniki Square
+    id:         odnoklassniki-square
+    unicode:    f264
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Get Pocket
+    id:         get-pocket
+    unicode:    f265
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Wikipedia W
+    id:         wikipedia-w
+    unicode:    f266
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Safari
+    id:         safari
+    unicode:    f267
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Chrome
+    id:         chrome
+    unicode:    f268
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Firefox
+    id:         firefox
+    unicode:    f269
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Opera
+    id:         opera
+    unicode:    f26a
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Internet-explorer
+    id:         internet-explorer
+    unicode:    f26b
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Television
+    id:         television
+    unicode:    f26c
+    created:    4.4
+    aliases:
+      - tv
+    categories:
+      - Веб-приложения
+
+  - name:       Contao
+    id:         contao
+    unicode:    f26d
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       500px
+    id:         500px
+    unicode:    f26e
+    created:    4.4
+    categories:
+      - Бренды
+
+
+  - name:       Amazon
+    id:         amazon
+    unicode:    f270
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Calendar Plus Outlined
+    id:         calendar-plus-o
+    unicode:    f271
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Calendar Minus Outlined
+    id:         calendar-minus-o
+    unicode:    f272
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Calendar Times Outlined
+    id:         calendar-times-o
+    unicode:    f273
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Calendar Check Outlined
+    id:         calendar-check-o
+    unicode:    f274
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Industry
+    id:         industry
+    unicode:    f275
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Map Pin
+    id:         map-pin
+    unicode:    f276
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Map Signs
+    id:         map-signs
+    unicode:    f277
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Map Outline
+    id:         map-o
+    unicode:    f278
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Map
+    id:         map
+    unicode:    f279
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Commenting
+    id:         commenting
+    unicode:    f27a
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Commenting Outlined
+    id:         commenting-o
+    unicode:    f27b
+    created:    4.4
+    categories:
+      - Веб-приложения
+
+  - name:       Houzz
+    id:         houzz
+    unicode:    f27c
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Vimeo
+    id:         vimeo
+    unicode:    f27d
+    created:    4.4
+    categories:
+      - Бренды
+
+  - name:       Font Awesome Black Tie
+    id:         black-tie
+    unicode:    f27e
+    created:    4.4
+    url:        blacktie.io
+    categories:
+      - Бренды
+
+
+  - name:       Fonticons
+    id:         fonticons
+    unicode:    f280
+    created:    4.4
+    url:        fonticons.com
     categories:
       - Бренды

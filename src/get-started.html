@@ -27,7 +27,7 @@ relative_path: ../
       <li>
         Вставьте нижеследующий код в тег <code>&lt;head&gt;</code> в HTML вашего вебсайта.
 {% highlight html %}
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.min.css">
 {% endhighlight %}
         <p class="alert alert-success"><i class="fa fa-info-circle"></i> Когда появляется новая версия, то BootstrapCDN требуется некоторое время, чтобы обновить у себя версию font Awesome</p>
       </li>
@@ -146,7 +146,15 @@ $ gem install font-awesome-sass
     На практике эти предупреждения валидатора не имеют значения, так как большая часть CSS работает без хаков и, соответственно, они не принимают участие в работе тех участков, где они не используются. Собственно, поэтому мы и игнорируем эти предупреждения.</p>
   </section>
 
-  <section class="need-ie7">
+  <section id="ie8-font-face">
+    <h2 class="page-header">Internet Explorer 8 и @font-face</h2>
+    <p>
+      IE8 имеет несколько проблем с <code>@font-face</code> при совместном использовании с псевдоэлементом <code>:before</code>.
+      Font Awesome как раз использует такую комбинацию. Если страница закеширована или загружена без наведенного курсора мыши на окно браузера (например, при нажатии на кнопку "обновить" или при загрузке контента через фрейм), то страница будет сгенерирована до подгрузки шрифта. Наведение курсора мыши на страницу (body) должно отобразить некоторые иконки, наведение курсора на остальные не подгруженные иконки также их реанимирует. <a href="https://github.com/FortAwesome/Font-Awesome/issues/954">Подробности</a> данной проблемы.
+    </p>
+  </section>
+
+  <section id="need-ie7">
     <h2 class="page-header">Необходима поддержка IE7?</h2>
     <p>
       Если вам нужна поддержка IE7, то примите мои соболезнования. Ну правда. Font Awesome {{ site.fontawesome.version }} не поддерживает IE7 и версии ниже. Вам необходимо прочитать <a href="{{ page.relative_path }}3.2.1/get-started/#need-ie7">инструкции по FA 3.2.1 для использования в IE7</a>. Затем можете пойти и пожаловаться тому, кто потребовал поддержку IE7.
