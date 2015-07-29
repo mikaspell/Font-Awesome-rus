@@ -3,12 +3,12 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<html lang="ru" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
 <head>
   <!-- Basic Page Needs
  ================================================== -->
   <meta charset="utf-8" />
-  <title>Font Awesome, the iconic font designed for Bootstrap</title>
+  <title>Font Awesome - иконочный шрифт и CSS-инструментарий</title>
   <meta name="description" content="Font Awesome, the iconic font designed for Bootstrap">
   <meta name="author" content="Dave Gandy">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,16 +33,15 @@
   <script type="text/javascript" src="//use.typekit.net/wnc7ioh.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-30136587-1']);
-    _gaq.push(['_trackPageview']);
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+  ga('create', 'UA-61806998-1', 'auto');
+  ga('send', 'pageview');
+
   </script>
 </head>
 <body data-spy="scroll" data-target=".navbar">
@@ -59,58 +58,58 @@
       <a class="brand" href="./"><i class="icon-flag"></i> Font Awesome</a>
       <div class="nav-collapse collapse">
         <ul class="nav">
-          <li class="hidden-tablet  active"><a href="./">Home</a></li>
-          <li><a href="./get-started/">Get Started</a></li>
-          <li class="dropdown-split-left"><a href="./icons/">Icons</a></li>
+          <li class="hidden-tablet  active"><a href="./">Главная</a></li>
+          <li><a href="./get-started/">Начало работы</a></li>
+          <li class="dropdown-split-left"><a href="./icons/">Иконки</a></li>
           <li class="dropdown dropdown-split-right hidden-phone">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="icon-caret-down"></i>
             </a>
             <ul class="dropdown-menu pull-right">
-              <li><a href="./icons/"><i class="icon-flag icon-fixed-width"></i>&nbsp; Icons</a></li>
+              <li><a href="./icons/"><i class="icon-flag icon-fixed-width"></i>&nbsp; Все иконки</a></li>
               <li class="divider"></li>
-              <li><a href="./icons/#new"><i class="icon-shield icon-fixed-width"></i>&nbsp; New Icons in 3.2.1</a></li>
-              <li><a href="./icons/#web-application"><i class="icon-camera-retro icon-fixed-width"></i>&nbsp; Web Application Icons</a></li>
-              <li><a href="./icons/#currency"><i class="icon-won icon-fixed-width"></i>&nbsp; Currency Icons</a></li>
-              <li><a href="./icons/#text-editor"><i class="icon-file-text-alt icon-fixed-width"></i>&nbsp; Text Editor Icons</a></li>
-              <li><a href="./icons/#directional"><i class="icon-hand-right icon-fixed-width"></i>&nbsp; Directional Icons</a></li>
-              <li><a href="./icons/#video-player"><i class="icon-play-sign icon-fixed-width"></i>&nbsp; Video Player Icons</a></li>
-              <li><a href="./icons/#brand"><i class="icon-github icon-fixed-width"></i>&nbsp; Brand Icons</a></li>
-              <li><a href="./icons/#medical"><i class="icon-medkit icon-fixed-width"></i>&nbsp; Medical Icons</a></li>
+              <li><a href="./icons/#new"><i class="icon-shield icon-fixed-width"></i>&nbsp; Новые иконки в 3.2.1</a></li>
+              <li><a href="./icons/#web-application"><i class="icon-camera-retro icon-fixed-width"></i>&nbsp; Веб-приложения</a></li>
+              <li><a href="./icons/#currency"><i class="icon-won icon-fixed-width"></i>&nbsp; Валюты</a></li>
+              <li><a href="./icons/#text-editor"><i class="icon-file-text-alt icon-fixed-width"></i>&nbsp; Редактирование</a></li>
+              <li><a href="./icons/#directional"><i class="icon-hand-right icon-fixed-width"></i>&nbsp; Направление</a></li>
+              <li><a href="./icons/#video-player"><i class="icon-play-sign icon-fixed-width"></i>&nbsp; Видео-плеер</a></li>
+              <li><a href="./icons/#brand"><i class="icon-github icon-fixed-width"></i>&nbsp; Бренды</a></li>
+              <li><a href="./icons/#medical"><i class="icon-medkit icon-fixed-width"></i>&nbsp; Медицина</a></li>
             </ul>
           </li>
-          <li class="dropdown-split-left"><a href="./examples/">Examples</a></li>
+          <li class="dropdown-split-left"><a href="./examples/">Примеры</a></li>
           <li class="dropdown dropdown-split-right hidden-phone">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="icon-caret-down"></i>
             </a>
             <ul class="dropdown-menu pull-right">
-              <li><a href="./examples/">Examples</a></li>
+              <li><a href="./examples/">Все примеры</a></li>
               <li class="divider"></li>
-              <li><a href="./examples/#new-styles">New Styles</a></li>
-              <li><a href="./examples/#inline-icons">Inline Icons</a></li>
-              <li><a href="./examples/#larger-icons">Larger Icons</a></li>
-              <li><a href="./examples/#bordered-pulled">Bordered & Pulled</a></li>
-              <li><a href="./examples/#buttons">Buttons</a></li>
-              <li><a href="./examples/#button-groups">Button Groups</a></li>
-              <li><a href="./examples/#button-dropdowns">Button Dropdowns</a></li>
-              <li><a href="./examples/#bulleted-lists">Bulleted Lists</a></li>
-              <li><a href="./examples/#navigation">Navigation</a></li>
-              <li><a href="./examples/#form-inputs">Form Inputs</a></li>
-              <li><a href="./examples/#animated-spinner">Animated Spinner</a></li>
-              <li><a href="./examples/#rotated-flipped">Rotated &amp; Flipped</a></li>
-              <li><a href="./examples/#stacked">Stacked</a></li>
-              <li><a href="./examples/#custom">Custom CSS</a></li>
+              <li><a href="./examples/#new-styles">Новые иконки</a></li>
+              <li><a href="./examples/#inline-icons">Строчные иконки</a></li>
+              <li><a href="./examples/#larger-icons">Увеличенные иконки</a></li>
+              <li><a href="./examples/#bordered-pulled">Обрамленные и вынесенные иконки</a></li>
+              <li><a href="./examples/#buttons">Кнопки</a></li>
+              <li><a href="./examples/#button-groups">Группированные кнопки</a></li>
+              <li><a href="./examples/#button-dropdowns">Кнопки с выпадашкой</a></li>
+              <li><a href="./examples/#bulleted-lists">Маркированные списки</a></li>
+              <li><a href="./examples/#navigation">Навигация</a></li>
+              <li><a href="./examples/#form-inputs">Элементы форм</a></li>
+              <li><a href="./examples/#animated-spinner">Анимированные прелоадеры</a></li>
+              <li><a href="./examples/#rotated-flipped">Повернутые и отзеркаленные иконки</a></li>
+              <li><a href="./examples/#stacked">Группированные иконки</a></li>
+              <li><a href="./examples/#custom">Персональный CSS</a></li>
             </ul>
           </li>
           <li><a href="./whats-new/">
-          <span class="hidden-tablet">What's </span>New</a>
+          <span class="hidden-tablet">Что </span>нового</a>
           </li>
-          <li><a href="./community/">Community</a></li>
-          <li><a href="./license/">License</a></li>
+          <li><a href="./community/">Сообщество</a></li>
+          <li><a href="./license/">Лицензии</a></li>
         </ul>
         <ul class="nav pull-right">
-          <li><a href="http://blog.fontawesome.io">Blog</a></li>
+          <li><a href="https://github.com/mikaspell/rus-translates" target="_blank">Перевод</a></li>
         </ul>
       </div>
     </div>
@@ -124,20 +123,20 @@
       <div class="span8">
         <div class="hero-content">
           <h1>Font Awesome</h1>
-          <p>The iconic font designed for Bootstrap</p>
+          <p>Иконочный шрифт, созданный для Bootstrap</p>
           <div class="actions">
             <a class="btn btn-primary btn-large" href="./assets/font-awesome.zip"
                onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
               <i class="icon-download-alt icon-large"></i>&nbsp;&nbsp;
-              Download
+              Скачать
             </a>
           </div>
           <div class="shameless-self-promotion">
             <a href="https://github.com/FortAwesome/Font-Awesome"
                onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'View Project on GitHub']);">
-              GitHub Project</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-            Version 3.2.1 &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-            Created &amp; Maintained by <a href="http://twitter.com/davegandy">Dave Gandy</a>
+              GitHub</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+            Версия 3.2.1 &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+            Создано Дейвом Ганди (<a href="http://twitter.com/davegandy">Dave Gandy</a>)
           </div>
         </div>
       </div>
@@ -198,7 +197,7 @@
     <div class="row">
       <div class="span12">
         <div class="alert alert-danger">
-          <strong>Heads up!</strong> These docs are for v3.2.1, which is no longer officially supported. <a href="../">Check out the latest version of Font Awesome!</a>
+          <strong>Внимание!</strong> Эта документация для шрифта версии 3.2.1, который официально больше не поддерживается.
         </div>
       </div>
     </div>
@@ -208,8 +207,7 @@
     <div class="span8">
 
   <p class="lead">
-    Font Awesome gives you scalable vector icons that can instantly be customized &mdash; size, color, drop shadow,
-    and anything that can be done with the power of CSS.
+    Font Awesome предлагает вам масштабируемые векторные иконки, которые вы можете с легкостью персонализировать — размер, цвет, тени и все, что можно сделать силами CSS.
   </p>
 
     </div>
@@ -224,31 +222,31 @@
   <div id="why">
   <div class="row">
     <div class="span4">
-      <h4><i class="icon-flag"></i> One Font, 361 Icons</h4>
-      In a single collection, Font Awesome is a pictographic language of web-related actions.
+      <h4><i class="icon-flag"></i> Один шрифт, 361 иконка</h4>
+      Единой коллекцией Font Awesome является графическим языком интернет-пространства.
     </div>
     <div class="span4">
-      <h4><i class="icon-pencil"></i> CSS Control</h4>
-      Easily style icon color, size, shadow, and anything that's possible with CSS.
+      <h4><i class="icon-pencil"></i> Управление через CSS</h4>
+      Легко настроить цвет иконок, размер, тени и все остальное, что возможно с помощью CSS.
     </div>
     <div class="span4">
-      <h4><i class="icon-fullscreen"></i> Infinite Scalability</h4>
-      Scalable vector graphics means every icon looks awesome at any size.
+      <h4><i class="icon-fullscreen"></i> Бесконечная масштабируемость</h4>
+      Масштабируемая векторная графика обозначает, что иконки будут выглядеть великолепно в любом размере.
     </div>
     <div class="span4">
-      <h4><i class="icon-microphone"></i> Free, as in Speech</h4>
-      Font Awesome is completely free for commercial use. Check out the <a href="./license/">license</a>.
+      <h4><i class="icon-microphone"></i> Бесплатно, как воздух</h4>
+      Font Awesome полностью бесплатен для коммерческого использования. Читай про <a href="./license/">лицензию</a>.
     </div>
     <div class="span4">
-      <h4><i class="icon-ok"></i> IE7 Support</h4>
-      Font Awesome supports IE7. If you need it, you have my condolences.
+      <h4><i class="icon-ok"></i> Поддержка IE7</h4>
+      Font Awesome поддерживает IE7. Если Вам это потребовалось, то примите мои соболезнования.
     </div>
     <div class="span4">
-      <h4><i class="icon-eye-open"></i> Perfect on Retina Displays</h4>
-      Font Awesome icons are vectors, which mean they're gorgeous on high-resolution displays.
+      <h4><i class="icon-eye-open"></i> Поддержка Retina-дисплеев</h4>
+      Иконки Font Awesome векторные, а это значит, что они великолепны на экранах высокого разрешения.
     </div>
     <div class="span4">
-      <h4><i class="icon-thumbs-up-alt"></i> Made for Bootstrap</h4>
+      <h4><i class="icon-thumbs-up-alt"></i> Создан под Bootstrap</h4>
       Designed from scratch to be fully compatible with <a href="http://getbootstrap.com">Bootstrap 2.3.2</a>.
     </div>
     <div class="span4">
@@ -325,5 +323,32 @@
 <script src="./assets/js/bootstrap-2.3.1.min.js"></script>
 <script src="./assets/js/site.js"></script>
 
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter29677530 = new Ya.Metrika({id:29677530,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<!-- /Yandex.Metrika counter -->
+<noscript><div><img src="//mc.yandex.ru/watch/29677530" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 </body>
 </html>
