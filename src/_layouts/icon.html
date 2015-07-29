@@ -1,6 +1,6 @@
 ---
 layout: base
-title_suffix: Font Awesome Icons
+title_suffix: иконка Font Awesome
 relative_path: ../../
 ---
 <div class="jumbotron jumbotron-icon">
@@ -19,15 +19,15 @@ relative_path: ../../
       fa-{{ page.icon.id }}
       <small>
         <i class="fa fa-{{ page.icon.id }}"></i> &middot;
-        Unicode: <span class="upper">{{ page.icon.unicode }}</span> &middot;
-        Created: v{{ page.icon.created }} &middot;
-        Categories:
+        Юникод: <span class="upper">{{ page.icon.unicode }}</span> &middot;
+        Создано в: v{{ page.icon.created }} &middot;
+        Категория:
         {% for category in page.icon.categories %}
           {{ category }}{% unless forloop.last %},{% endunless %}
         {% endfor %}
         {% assign icon_alias_count = page.icon.aliases | size %}
         {% if icon_alias_count > 0 %}
-          &middot; Aliases:
+          &middot; Синонимы:
           {% for alias in page.icon.aliases %}
             fa-{{ alias }}{% unless forloop.last %},{% endunless %}
           {% endfor %}
@@ -42,7 +42,7 @@ relative_path: ../../
   <section>
     <div class="row">
       <div class="col-md-9 col-sm-9">
-        <p>After you get <a href="{{ page.relative_path }}get-started/">up and running</a>, you can place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag:</p>
+        <p>После того, как вы <a href="{{ page.relative_path }}get-started/">подключили</a> Font Awesome к своему проекту, иконки можно вызывать с помощью тега <code>&lt;i&gt;</code>:</p>
         <div class="well well-transparent">
           <div style="font-size: 24px; line-height: 1.5em;">
             <i class="fa fa-{{ page.icon.id }}"></i> fa-{{ page.icon.id }}
@@ -52,7 +52,7 @@ relative_path: ../../
 <i class="fa fa-{{ page.icon.id }}"></i>
 {% endhighlight %}
         <br>
-        <div class="lead"><i class="fa fa-info-sign"></i> Looking for more? Check out the <a href="{{ page.relative_path }}examples/">examples</a>.</div>
+        <div class="lead"><i class="fa fa-info-sign"></i> Не знаете как использовать? Посмотрите <a href="{{ page.relative_path }}examples/">примеры</a>.</div>
       </div>
       <div class="col-md-3 col-sm-3">
         <div class="vertical-ad">{% include ads/fusion.html %}</div>

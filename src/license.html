@@ -1,11 +1,11 @@
 ---
 layout: base
-title: Font Awesome License
+title: Лицензии Font Awesome
 navbar_active: license
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="fa fa-gavel"></i>&nbsp; License{% endcapture %}
-{% capture jumbotron_p %}The full details of how Font Awesome is licensed{% endcapture %}
+{% capture jumbotron_h1 %}<i class="fa fa-gavel"></i>&nbsp; Лицензии{% endcapture %}
+{% capture jumbotron_p %}Полные сведения о лицензии Font Awesome{% endcapture %}
 
 {% include jumbotron.html %}
 {% include stripe-social.html %}
@@ -13,8 +13,7 @@ relative_path: ../
 <div class="container">
   {% capture stripe_ad_content %}
   <p class="lead">
-    Font Awesome is fully open source and is GPL friendly. You can use it for commercial projects, open source
-    projects, or really just about whatever you want.
+    Font Awesome полностью бесплатен и поддерживает GPL. Вы можете использовать его в коммерческих проектах, в бесплатных проектах, да и  везде, где только пожелаете.
   </p>
   {% endcapture %}
   {% include stripe-ad.html %}
@@ -23,50 +22,50 @@ relative_path: ../
     <div class="alert alert-success">
       <ul class="fa-ul margin-bottom-none">
         <li>
-          <i class="fa-li fa fa-info-circle fa-lg"></i>Attribution is no longer required as of Font Awesome 3.0 but is much appreciated:
-          "Font Awesome by Dave Gandy - http://fontawesome.io".
+          <i class="fa-li fa fa-info-circle fa-lg"></i>Указание проекта, как в Font Awesome 3.0, больше не требуется, но приветствуется:
+          "Font Awesome от Dave Gandy - http://fontawesome.io".
         </li>
       </ul>
     </div>
   </section>
 
   <section>
-    <h2 class="page-header">Font License</h2>
+    <h2 class="page-header">Лицензия на шрифт</h2>
     <ul>
       <li>
-        Applies to all desktop and webfont files in the following directory:
+        Применяется ко все настольным и веб-шрифтам, находящимся в папке:
         <code>font-awesome/fonts/</code>.
       </li>
-      <li>License: {{ site.fontawesome.license.font.version }}</li>
-      <li>URL: <a href="{{ site.fontawesome.license.font.url }}">{{ site.fontawesome.license.font.url }}</a></li>
+      <li>Лицензия: {{ site.fontawesome.license.font.version }}</li>
+      <li>Описание: <a href="{{ site.fontawesome.license.font.url }}">{{ site.fontawesome.license.font.url }}</a></li>
     </ul>
   </section>
 
   <section>
-    <h2 class="page-header">Code License</h2>
+    <h2 class="page-header">Лицензия на код</h2>
     <ul>
       <li>
-        Applies to all CSS and LESS files in the following directories:
+        Применяется ко всем CSS и LESS файлам, находящихся в папках:
         <code>font-awesome/css/</code>,
-        <code>font-awesome/less/</code>, and
+        <code>font-awesome/less/</code>, и
         <code>font-awesome/scss/</code>.
       </li>
-      <li>License: {{ site.fontawesome.license.code.version }}</li>
-      <li>URL: <a href="{{ site.fontawesome.license.code.url }}">{{ site.fontawesome.license.code.url }}</a></li>
+      <li>Лицензия: {{ site.fontawesome.license.code.version }}</li>
+      <li>Описание: <a href="{{ site.fontawesome.license.code.url }}">{{ site.fontawesome.license.code.url }}</a></li>
     </ul>
   </section>
 
   <section>
-    <h2 class="page-header">Documentation License</h2>
+    <h2 class="page-header">Лицензия на документацию</h2>
     <ul>
-      <li>Applies to all Font Awesome project files that are not a part of the Font or Code licenses.</li>
-      <li>License: {{ site.fontawesome.license.documentation.version }}</li>
-      <li>URL: <a href="{{ site.fontawesome.license.documentation.url }}">{{ site.fontawesome.license.documentation.url }}</a></li>
+      <li>Применяется ко всем проектам Font Awesome, которые не относятся ни к разделу шрифтов, ни к разделу кода.</li>
+      <li>Лицензия: {{ site.fontawesome.license.documentation.version }}</li>
+      <li>Описание: <a href="{{ site.fontawesome.license.documentation.url }}">{{ site.fontawesome.license.documentation.url }}</a></li>
     </ul>
   </section>
 
   <section>
-    <h2 class="page-header">Brand Icons</h2>
+    <h2 class="page-header">Иконки брендов</h2>
     {% include brand-license.html %}
   </section>
 </div>
