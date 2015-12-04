@@ -19,10 +19,10 @@ icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
 fontawesome:
-  version:        4.4.0
-  minor_version:  4.4
+  version:        4.5.0
+  minor_version:  4.5
   major_version:  4
-  doc_blob:       v4.4.0
+  doc_blob:       v4.5.0
   url:            http://fontawesome.ru
   legacy_url:     http://mikaspell.github.io/Font-Awesome-rus/
   blog_url:       http://blog.fontawesome.io
@@ -35,8 +35,8 @@ fontawesome:
     twitter:      davegandy
     github:       davegandy
   github:
-    url:          https://github.com/mikaspell/Font-Awesome-rus
-    project:      Font-Awesome-rus
+    url:          http://fortawesome.github.com/Font-Awesome/
+    project:      Font-Awesome
     org:          FortAwesome
   license:
     font:
