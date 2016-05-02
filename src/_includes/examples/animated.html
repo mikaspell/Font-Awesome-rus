@@ -10,10 +10,19 @@
     <div class="col-md-3 col-sm-4">
       <p>
         <i class="fa fa-spinner fa-spin fa-3x fa-fw margin-bottom"></i>
+        <span class="sr-only">Пример загрузки (с fa-spinner icon)</span>
+
         <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw margin-bottom"></i>
+        <span class="sr-only">Пример загрузки (с fa-circle-o-notch icon)</span>
+
         <i class="fa fa-refresh fa-spin fa-3x fa-fw margin-bottom"></i>
+        <span class="sr-only">Пример загрузки (с fa-refresh icon)</span>
+
         <i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>
+        <span class="sr-only">Пример загрузки (с fa-cog icon)</span>
+
         <i class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>
+        <span class="sr-only">Пример загрузки (с fa-spinner icon)</span>
       </p>
     </div>
     <div class="col-md-9 col-sm-8">
@@ -21,20 +30,29 @@
         Используйте класс <code>fa-spin</code>, чтобы заставить вращаться любую иконку, и используйте класс <code>fa-pulse</code>, чтобы заставить вращаться иконку по 8 шагов. Также работает с классами <code>fa-spinner</code>, <code>fa-refresh</code>, и <code>fa-cog</code>.
       </p>
 {% highlight html %}
-<i class="fa fa-spinner fa-spin"></i>
-<i class="fa fa-circle-o-notch fa-spin"></i>
-<i class="fa fa-refresh fa-spin"></i>
-<i class="fa fa-cog fa-spin"></i>
-<i class="fa fa-spinner fa-pulse"></i>
+<i class="fa fa-spinner fa-spin fa-3x fa-fw margin-bottom"></i>
+<span class="sr-only">Загрузка...</span>
+
+<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw margin-bottom"></i>
+<span class="sr-only">Загрузка...</span>
+
+<i class="fa fa-refresh fa-spin fa-3x fa-fw margin-bottom"></i>
+<span class="sr-only">Загрузка...</span>
+
+<i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>
+<span class="sr-only">Загрузка...</span>
+
+<i class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>
+<span class="sr-only">Загрузка...</span>
 {% endhighlight %}
       <p class="alert alert-success">
-        <i class="fa fa-exclamation-triangle fa-lg"></i> 
-        Некоторые браузера на нескольких платформах имеют проблемы с анимацией иконок, что дает эффект "безудержного веселья" у иконки. 
-        Читайте <a href="https://github.com/FortAwesome/Font-Awesome/issues/671" class="alert-link" target="_blank">проблему #671</a> 
+        <i class="fa fa-exclamation-triangle fa-lg" aria-hidden="true"></i><strong class="sr-only">На заметку:</strong>
+        Некоторые браузера на нескольких платформах имеют проблемы с анимацией иконок, что дает эффект "безудержного веселья" у иконки.
+        Читайте <a href="https://github.com/FortAwesome/Font-Awesome/issues/671" class="alert-link" target="_blank">проблему #671</a>
         для ознакомления с ней и изучения возможных решений.
       </p>
       <p class="alert alert-success">
-        <i class="fa fa-info-circle fa-lg"></i> Анимация CSS3 не поддерживается в IE8 - IE9.
+        <i class="fa fa-info-circle fa-lg" aria-hidden="true"></i><strong class="sr-only">На заметку:</strong> Анимация CSS3 не поддерживается в IE8 - IE9.
       </p>
     </div>
   </div>

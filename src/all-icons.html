@@ -4,7 +4,7 @@ title: Все иконки Font Awesome
 navbar_active: icons
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="fa fa-flag"></i>&nbsp; Иконки{% endcapture %}
+{% capture jumbotron_h1 %}<i class="fa fa-flag" aria-hidden="true"></i>&nbsp; Иконки{% endcapture %}
 {% capture jumbotron_p %}Полная сборка из {{ icons | size }} иконок Font Awesome {{ site.fontawesome.version }}{% endcapture %}
 
 {% include jumbotron.html %}
@@ -24,14 +24,14 @@ relative_path: ../
   <div class="row">
     <div class="col-md-10 col-sm-9">
       <section id="search">
-        <label for="search-input"><i class="fa fa-search"></i></label>
+        <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Найти иконки</span></label>
         <input id="search-input" class="form-control input-lg" placeholder="Найти иконки" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
-        <a id="search-clear" href="#" class="fa fa-times-circle hide"></a>
+        <a id="search-clear" href="#" class="fa fa-times-circle hide" aria-hidden="true"><span class="sr-only">Начать заново</span></a>
       </section>
     </div>
     <div class="col-md-2 col-sm-3 padding-left-none hidden-xs">
       <div class="algolia">
-        <a href="https://algolia.com"><i class="fas fas-algolia"></i></a>
+        <a href="https://algolia.com"><i class="fas fas-algolia" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
@@ -40,6 +40,7 @@ relative_path: ../
   <div id="icons">
     {% include icons/new.html %}
     {% include icons/web-application.html %}
+    {% include icons/accessibility.html %}
     {% include icons/hand.html %}
     {% include icons/transportation.html %}
     {% include icons/gender.html %}
@@ -63,15 +64,15 @@ relative_path: ../
       </div>
     <% } else { %>
       <div class="alert alert-danger text-lg" role="alert">
-        <h3 class="margin-top margin-bottom-lg"><i class="fa fa-meh-o"></i> Ой! По вашему запросу не найдено ни одной иконки.</h3>
+        <h3 class="margin-top margin-bottom-lg"><i class="fa fa-meh-o" aria-hidden="true"></i> Ой! По вашему запросу не найдено ни одной иконки.</h3>
         Несколько советов, которые могут помочь:
         <ol>
           <li>
-            Используйте <a class="alert-link" href="https://fonticons.com">Fonticons</a> (наш последний проект) для добавления ваших иконок, а также для поднятия уровня ваших работ со шрифтами!
+            Используйте <a class="alert-link" href="https://fortawesome.com">Fort Awesome</a> (наш последний проект) для добавления ваших иконок, а также для поднятия уровня ваших работ со шрифтами!
           </li>
           <li>
             Действительно хотите увидеть иконку в Font Awesome?
-            <a class="alert-link" href="mailto:dave@fonticons.com">Напишите мне письмо</a> с описанием того, что вам нужно!
+            <a class="alert-link" href="mailto:dave@fortawesome.com">Напишите мне письмо</a> с описанием того, что вам нужно!
           </li>
           <li>
             Мы что-то упустили в результатах поиска?
@@ -85,7 +86,7 @@ relative_path: ../
   <script type="text/template" id="result-template">
     <div class="fa-hover col-md-3 col-sm-4">
       <a href="{{ page.relative_path }}icon/<%= result.name %>">
-        <i class="fa <%= result.css_class %>"></i> <%= result._highlightResult.name.value %>
+        <i class="fa <%= result.css_class %>" aria-hidden="true"></i> <%= result._highlightResult.name.value %>
         <% if (matches.length > 0) { %>
           <span class="text-muted">(<%= matches.join(", ") %>)</span>
         <% } %>

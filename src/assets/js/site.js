@@ -53,19 +53,20 @@ $(function () {
   //     btn_text: "Check it Out!"
   //   }
   // ];
-
-  // selectFonticonsAd();
+  
+  //selectAd();
 
   // start the icon carousel
   $('#icon-carousel').carousel({
     interval: 5000
   });
 
+  $('[data-toggle="tooltip"]').tooltip();
   $('[data-toggle="popover"]').popover();
 
-  // function selectFonticonsAd() {
-  //   random_number = Math.floor(Math.random() * ads.length);
-  //   random_ad = ads[random_number];
+//  function selectAd() {
+//    random_number = Math.floor(Math.random() * ads.length);
+//    random_ad = ads[random_number];
 
   //   $('#banner').addClass(random_ad.class);
   //   $('#rotating-message').html(random_ad.quote);

@@ -11,15 +11,33 @@
   </div>
 </div>
 
+<div class="navbar navbar-org navbar-static-top">
+  <div class="container">
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="http://fortawesome.com/?utm_source=font_awesome_navbar&utm_medium=display&utm_content=ad_1_next_level&utm_campaign=promo_5.0_update" data-toggle="tooltip" data-container="body" data-placement="bottom" data-html="true" title="Take your front end game<br>to the next level!">
+          <i class="fas fas-fort-logo fas-lg valign-baseline"></i>&nbsp;
+          Fort Awesome
+        </a>
+      </li>
+      <li class="active">
+        <a href="http://fontawesome.io/?utm_source=font_awesome_navbar&utm_medium=display&utm_content=font_awesome_navbar&utm_campaign=promo_5.0_update" data-toggle="tooltip" data-container="body" data-placement="bottom" data-html="true" title="The iconic font<br>&amp; CSS toolkit">
+          <i class="fas fas-flag-logo"></i>&nbsp;
+          Font Awesome</a>
+      </li>
+    </ul>
+    <div class="navbar-text navbar-right hide-xs">Build and serve a faster front end!</div>
+  </div>
+</div>
 
 <div class="navbar navbar-inverse navbar-static-top hidden-print">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <i class="fa fa-bars fa-lg" aria-hidden="true" title="Toggle navigation"></i>
         <span class="sr-only">Развернуть меню</span>
-        <i class="fa fa-bars fa-lg"></i>
       </button>
-      <a class="navbar-brand" href="{{ page.relative_path }}"><i class="fas fas-logo"></i></a>
+      <a class="navbar-brand" href="{{ page.relative_path }}"><i class="fas fas-flag-logo fas-lg" aria-hidden="true"></i> Font Awesome</a>
     </div>
 
     <div class="navbar-collapse collapse">
@@ -31,37 +49,47 @@
         <li class="hidden-xs hidden-md hidden-lg{% if page.navbar_active == "whats-new" %} active{% endif %}">
           <a href="{{ page.relative_path }}whats-new/">Новое</a>
         </li>
-        <li{% if page.navbar_active == "get-started" %} class="active"{% endif %}><a href="{{ page.relative_path }}get-started/">Начало работы</a></li>
-        <li class="dropdown-split-left{% if page.navbar_active == "all-icons" %} active{% endif %}"><a href="{{ page.relative_path }}all-icons/">Иконки</a></li>
+
+        <li class="hidden-sm{% if page.navbar_active == "get-started" %} active{% endif %}"><a href="{{ page.relative_path }}get-started/">Начало работы</a></li>
+        <li class="hidden-xs hidden-md hidden-lg{% if page.navbar_active == "get-started" %} active{% endif %}">
+          <a href="{{ page.relative_path }}get-started/">Начать</a>
+        </li>
+
+        <li class="dropdown-split-left{% if page.navbar_active == "icons" %} active{% endif %}"><a href="{{ page.relative_path }}all-icons/">Иконки</a></li>
         <li class="dropdown dropdown-split-right hidden-xs{% if page.navbar_active == "icons" %} active{% endif %}">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <i class="fa fa-caret-down"></i>
+            <i class="fa fa-caret-down" aria-hidden="true" title="Развернуть меню"></i>
+            <span class="sr-only">Развернуть меню</span>
+            <span class="toggle drop down"></span>
           </a>
           <ul class="dropdown-menu pull-right">
-            <li><a href="{{ page.relative_path }}all-icons/"><i class="fa fa-flag fa-fw"></i>&nbsp; Все иконки</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/"><i class="fa fa-flag fa-fw" aria-hidden="true"></i>&nbsp; Все иконки</a></li>
             <li class="divider"></li>
-            <li><a href="{{ page.relative_path }}all-icons/#new"><i class="fa fa-fort-awesome fa-fw"></i>&nbsp; Новые иконки в {{ site.fontawesome.minor_version }}</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#web-application"><i class="fa fa-camera-retro fa-fw"></i>&nbsp; Веб-приложения</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#hand"><i class="fa fa-hand-spock-o fa-fw"></i>&nbsp; Иконки жестов</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#transportation"><i class="fa fa-ship fa-fw"></i>&nbsp; Транспорт</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#gender"><i class="fa fa-venus fa-fw"></i>&nbsp; Гендерные</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#file-type"><i class="fa fa-file-image-o fa-fw"></i>&nbsp; Типы файлов</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#spinner"><i class="fa fa-spinner fa-fw"></i>&nbsp; Вращающиеся</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#form-control"><i class="fa fa-check-square fa-fw"></i>&nbsp; Элементы форм</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#payment"><i class="fa fa-credit-card fa-fw"></i>&nbsp; Платежные системы</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#chart"><i class="fa fa-pie-chart fa-fw"></i>&nbsp; Диаграммы</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#currency"><i class="fa fa-won fa-fw"></i>&nbsp; Валюты</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#text-editor"><i class="fa fa-file-text-o fa-fw"></i>&nbsp; Редактирование</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#directional"><i class="fa fa-arrow-right fa-fw"></i>&nbsp; Направление</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#video-player"><i class="fa fa-play-circle fa-fw"></i>&nbsp; Видео-плеер</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#brand"><i class="fa fa-github fa-fw"></i>&nbsp; Бренды</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#medical"><i class="fa fa-medkit fa-fw"></i>&nbsp; Медицина</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#new"><i class="fa fa-fort-awesome fa-fw" aria-hidden="true"></i>&nbsp; Новые иконки в {{ site.fontawesome.minor_version }}</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#web-application"><i class="fa fa-camera-retro fa-fw" aria-hidden="true"></i>&nbsp; Веб-приложения</a></li>
+              <li><a href="{{ page.relative_path }}icons/#accessibility"><i class="fa fa-universal-access fa-fw" aria-hidden="true"></i>&nbsp; Иконки ограничений</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#hand"><i class="fa fa-hand-spock-o fa-fw" aria-hidden="true"></i>&nbsp; Иконки жестов</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#transportation"><i class="fa fa-ship fa-fw" aria-hidden="true"></i>&nbsp; Транспорт</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#gender"><i class="fa fa-venus fa-fw" aria-hidden="true"></i>&nbsp; Гендерные</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#file-type"><i class="fa fa-file-image-o fa-fw" aria-hidden="true"></i>&nbsp; Типы файлов</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#spinner"><i class="fa fa-spinner fa-fw" aria-hidden="true"></i>&nbsp; Вращающиеся</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#form-control"><i class="fa fa-check-square fa-fw" aria-hidden="true"></i>&nbsp; Элементы форм</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#payment"><i class="fa fa-credit-card fa-fw" aria-hidden="true"></i>&nbsp; Платежные системы</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#chart"><i class="fa fa-pie-chart fa-fw" aria-hidden="true"></i>&nbsp; Диаграммы</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#currency"><i class="fa fa-won fa-fw" aria-hidden="true"></i>&nbsp; Валюты</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#text-editor"><i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>&nbsp; Редактирование</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#directional"><i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i>&nbsp; Направление</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#video-player"><i class="fa fa-play-circle fa-fw" aria-hidden="true"></i>&nbsp; Видео-плеер</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#brand"><i class="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp; Бренды</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#medical"><i class="fa fa-medkit fa-fw" aria-hidden="true"></i>&nbsp; Медицина</a></li>
           </ul>
         </li>
         <li class="dropdown-split-left{% if page.navbar_active == "examples" %} active{% endif %}"><a href="{{ page.relative_path }}examples/">Примеры</a></li>
         <li class="dropdown dropdown-split-right hidden-xs{% if page.navbar_active == "examples" %} active{% endif %}">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <i class="fa fa-caret-down"></i>
+            <i class="fa fa-caret-down" aria-hidden="true" title="Развернуть меню"></i>
+            <span class="sr-only">Развернуть меню</span>
+            <span class="toggle drop down"></span>
           </a>
           <ul class="dropdown-menu pull-right">
             <li><a href="{{ page.relative_path }}examples/">Примеры</a></li>
@@ -72,17 +100,22 @@
             <li><a href="{{ page.relative_path }}examples/#list">Иконки списков</a></li>
             <li><a href="{{ page.relative_path }}examples/#bordered-pulled">Обрамленные и вынесенные иконки</a></li>
             <li><a href="{{ page.relative_path }}examples/#animated">Анимированные иконки</a></li>
+              <li><a href="{{ page.relative_path }}examples/#accessible">Иконки ограничений</a></li>
             <li><a href="{{ page.relative_path }}examples/#rotated-flipped">Повернутые и отзеркаленные иконки</a></li>
             <li><a href="{{ page.relative_path }}examples/#stacked">Групповые иконки</a></li>
             <li><a href="{{ page.relative_path }}examples/#bootstrap">Примеры Bootstrap 3</a></li>
             <li><a href="{{ page.relative_path }}examples/#custom">Персональный CSS</a></li>
           </ul>
         </li>
+        <li class="hidden-sm{% if page.navbar_active == "accessibility" %} active{% endif %}"><a href="{{ page.relative_path }}accessibility/">Ограничения</a></li>
+        <li class="hidden-xs hidden-md hidden-lg{% if page.navbar_active == "accessibility" %} active{% endif %}"><a href="{{ page.relative_path }}accessibility/"><i class="fa fa-universal-access"></i></a></li>
         <li{% if page.navbar_active == "community" %} class="active"{% endif %}><a href="{{ page.relative_path }}community/">Сообщество</a></li>
         <li{% if page.navbar_active == "license" %} class="active"{% endif %}><a href="{{ page.relative_path }}license/">Лицензии</a></li>
+        <li class="hidden-sm hidden-xs"><a href="https://github.com/mikaspell/rus-translates" target="_blank">Перевод</a></li>
       </ul>
+
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://github.com/mikaspell/rus-translates" target="_blank">Перевод</a></li>
+        <li{% if page.navbar_active == "store" %} class="active"{% endif %}><a href="{{ page.relative_path }}store/"><i class="fa fa-shopping-cart margin-right-sm hidden-sm hidden-md"></i>Магазин</a></li>
       </ul>
     </div>
   </div>

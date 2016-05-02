@@ -10,7 +10,9 @@
   <div class="row">
     <div class="col-md-3 col-sm-4">
       <p>
-        <i class="fa fa-camera-retro"></i> fa-camera-retro
+        <i class="fa fa-camera-retro" aria-hidden="true"></i>
+        <span class="sr-only">Пример: Базовые иконки</span>
+        fa-camera-retro
       </p>
     </div>
     <div class="col-md-9 col-sm-8">
@@ -18,12 +20,13 @@
         Вы можете разместить иконки Font Awesome в любом месте, используя в имени класса префикс <code>fa</code> и название иконки. Font Awesome разработан так, чтобы он мог быть использован в строковых элементах (мы любим использовать тег <code>&lt;i&gt;</code> так как он очень короткий, но использование тега <code>&lt;span&gt;</code> будет семантически более правильно).
       </p>
 {% highlight html %}
-<i class="fa fa-camera-retro"></i> fa-camera-retro
+<i class="fa fa-camera-retro" aria-hidden="true"></i> fa-camera-retro
 {% endhighlight %}
       <div class="alert alert-success">
         <ul class="fa-ul">
           <li>
-            <i class="fa fa-info-circle fa-lg fa-li"></i>
+            <i class="fa fa-info-circle fa-lg fa-li" aria-hidden="true"></i>
+            <strong class="sr-only">Пример: Базовые иконки</strong>
             Если вы меняете значение свойства font-size у контейнера иконок, то иконки станут больше. Такое поведение происходит и с цветом, тенью и другими свойствами, которые могут наследоваться.
           </li>
         </ul>

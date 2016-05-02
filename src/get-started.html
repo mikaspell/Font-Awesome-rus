@@ -4,7 +4,7 @@ title: Начало работы с Font Awesome
 navbar_active: get-started
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="fa fa-cogs"></i>&nbsp; Начало работы{% endcapture %}
+{% capture jumbotron_h1 %}<i class="fa fa-cogs" aria-hidden="true"></i>&nbsp; Начало работы{% endcapture %}
 {% capture jumbotron_p %}Легкие и быстрые способы подключить Font Awesome {{ site.fontawesome.version }} на ваш сайт{% endcapture %}
 
 {% include jumbotron.html %}
@@ -29,7 +29,7 @@ relative_path: ../
 {% highlight html %}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.min.css">
 {% endhighlight %}
-        <p class="alert alert-success"><i class="fa fa-info-circle"></i> Когда появляется новая версия, то BootstrapCDN требуется некоторое время, чтобы обновить у себя версию font Awesome</p>
+        <p class="alert alert-success"><i class="fa fa-info-circle" aria-hidden="true"></i> Когда появляется новая версия, то BootstrapCDN требуется некоторое время, чтобы обновить у себя версию font Awesome</p>
       </li>
       <li>
         Pat yourself on the back for your scalable-vector-icons-on-the-website
@@ -132,7 +132,7 @@ $ gem install font-awesome-sass
 {% highlight scss %}
 @fa-font-path:   "../font";
 {% endhighlight %}
-        <p class="alert alert-success"><i class="fa fa-info-circle"></i> Путь к папке со шрифтами задается относительно папки со скомпилированным CSS.</p>
+        <p class="alert alert-success"><i class="fa fa-info-circle" aria-hidden="true"></i> Путь к папке со шрифтами задается относительно папки со скомпилированным CSS.</p>
       </li>
       <li>Перекомпилируйте LESS или SASS, если используете статический компилятор. В противном случае, все будет работать без ваших усилий.</li>
       <li>Посмотрите <a href="{{ page.relative_path }}examples/">примеры</a> для начала работы с Font Awesome!</li>

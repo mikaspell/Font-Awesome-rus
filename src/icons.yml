@@ -70,6 +70,7 @@ icons:
       - night
       - rating
       - score
+      - favorite
     categories:
       - Веб-приложения
 
@@ -83,6 +84,7 @@ icons:
       - night
       - rating
       - score
+      - favorite
     categories:
       - Веб-приложения
 
@@ -158,6 +160,7 @@ icons:
       - accept
       - confirm
       - tick
+      - ok
     categories:
       - Веб-приложения
 
@@ -214,6 +217,9 @@ icons:
     id:         signal
     unicode:    f012
     created:    1.0
+    filter:
+      - graph
+      - bars
     categories:
       - Веб-приложения
 
@@ -393,6 +399,7 @@ icons:
       - sound
       - listen
       - music
+      - audio
     categories:
       - Веб-приложения
 
@@ -401,6 +408,7 @@ icons:
     unicode:    f026
     created:    1.0
     filter:
+      - audio
       - mute
       - sound
       - music
@@ -412,6 +420,7 @@ icons:
     unicode:    f027
     created:    1.0
     filter:
+      - audio
       - lower
       - quieter
       - sound
@@ -424,6 +433,7 @@ icons:
     unicode:    f028
     created:    1.0
     filter:
+      - audio
       - higher
       - louder
       - sound
@@ -703,6 +713,7 @@ icons:
     filter:
       - social
       - send
+      - arrow
     categories:
       - Веб-приложения
 
@@ -716,6 +727,7 @@ icons:
       - agree
       - accept
       - confirm
+      - ok
     categories:
       - Веб-приложения
       - Элементы форм
@@ -907,6 +919,7 @@ icons:
       - agree
       - accept
       - confirm
+      - ok
     categories:
       - Веб-приложения
 
@@ -964,6 +977,7 @@ icons:
       - agree
       - accept
       - confirm
+      - ok
     categories:
       - Веб-приложения
 
@@ -1118,6 +1132,7 @@ icons:
     filter:
       - eco
       - nature
+      - plant
     categories:
       - Веб-приложения
 
@@ -1197,6 +1212,7 @@ icons:
       - date
       - time
       - when
+      - event
     categories:
       - Веб-приложения
 
@@ -1209,6 +1225,7 @@ icons:
       - shuffle
     categories:
       - Веб-приложения
+      - Видео-плеер
 
   - name:       comment
     id:         comment
@@ -1221,6 +1238,9 @@ icons:
       - chat
       - bubble
       - feedback
+      - message
+      - texting
+      - sms
     categories:
       - Веб-приложения
 
@@ -1375,6 +1395,10 @@ icons:
       - conversation
       - notification
       - notes
+      - message
+      - texting
+      - sms
+      - chat
     categories:
       - Веб-приложения
 
@@ -1505,6 +1529,7 @@ icons:
     id:         github-square
     unicode:    f092
     created:    1.0
+    url:        github.com/logos
     filter:
       - octocat
     categories:
@@ -1523,6 +1548,8 @@ icons:
     id:         lemon-o
     unicode:    f094
     created:    1.0
+    filter:
+      - food
     categories:
       - Веб-приложения
 
@@ -1598,6 +1625,7 @@ icons:
     id:         github
     unicode:    f09b
     created:    2.0
+    url:        github.com/logos
     filter:
       - octocat
     categories:
@@ -1696,8 +1724,10 @@ icons:
       - right
       - next
       - forward
+      - finger
     categories:
       - Направление
+      - Иконки жестов
 
   - name:       Hand Outlined Left
     id:         hand-o-left
@@ -1708,8 +1738,10 @@ icons:
       - left
       - previous
       - back
+      - finger
     categories:
       - Направление
+      - Иконки жестов
 
   - name:       Hand Outlined Up
     id:         hand-o-up
@@ -1717,8 +1749,10 @@ icons:
     created:    2.0
     filter:
       - point
+      - finger
     categories:
       - Направление
+      - Иконки жестов
 
   - name:       Hand Outlined Down
     id:         hand-o-down
@@ -1726,8 +1760,10 @@ icons:
     created:    2.0
     filter:
       - point
+      - finger
     categories:
       - Направление
+      - Иконки жестов
 
   - name:       Arrow Circle Left
     id:         arrow-circle-left
@@ -1847,6 +1883,7 @@ icons:
       - move
       - reorder
       - resize
+      - arrow
     categories:
       - Видео-плеер
       - Направление
@@ -1912,6 +1949,8 @@ icons:
     created:    2.0
     filter:
       - duplicate
+      - clone
+      - copy
     aliases:
       - copy
     categories:
@@ -2099,6 +2138,7 @@ icons:
       - dropdown
       - menu
       - triangle down
+      - arrow
     categories:
       - Направление
 
@@ -2108,6 +2148,7 @@ icons:
     created:    2.0
     filter:
       - triangle up
+      - arrow
     categories:
       - Направление
 
@@ -2119,6 +2160,7 @@ icons:
       - previous
       - back
       - triangle left
+      - arrow
     categories:
       - Направление
 
@@ -2130,6 +2172,7 @@ icons:
       - next
       - forward
       - triangle right
+      - arrow
     categories:
       - Направление
 
@@ -2162,6 +2205,7 @@ icons:
       - dropdown
       - more
       - menu
+      - arrow
     aliases:
       - sort-down
     categories:
@@ -2173,6 +2217,8 @@ icons:
     created:    2.0
     aliases:
       - sort-up
+    filter:
+      - arrow
     categories:
       - Веб-приложения
 
@@ -2240,8 +2286,15 @@ icons:
     unicode:    f0e5
     created:    2.0
     filter:
+      - speech
       - notification
       - note
+      - chat
+      - bubble
+      - feedback
+      - message
+      - texting
+      - sms
     categories:
       - Веб-приложения
 
@@ -2253,6 +2306,10 @@ icons:
       - conversation
       - notification
       - notes
+      - message
+      - texting
+      - sms
+      - chat
     categories:
       - Веб-приложения
 
@@ -2314,8 +2371,10 @@ icons:
     filter:
       - transfer
       - arrows
+      - arrow
     categories:
       - Веб-приложения
+      - Направление
 
   - name:       Cloud Download
     id:         cloud-download
@@ -2447,6 +2506,7 @@ icons:
     unicode:    f0f9
     created:    3.0
     filter:
+      - vehicle
       - support
       - help
     categories:
@@ -2529,6 +2589,7 @@ icons:
       - quote
       - previous
       - back
+      - arrows
     categories:
       - Направление
 
@@ -2541,6 +2602,7 @@ icons:
       - quote
       - next
       - forward
+      - arrows
     categories:
       - Направление
 
@@ -2548,6 +2610,8 @@ icons:
     id:         angle-double-up
     unicode:    f102
     created:    3.0
+    filter:
+      - arrows
     categories:
       - Направление
 
@@ -2555,6 +2619,8 @@ icons:
     id:         angle-double-down
     unicode:    f103
     created:    3.0
+    filter:
+      - arrows
     categories:
       - Направление
 
@@ -2565,6 +2631,7 @@ icons:
     filter:
       - previous
       - back
+      - arrow
     categories:
       - Направление
 
@@ -2575,6 +2642,7 @@ icons:
     filter:
       - next
       - forward
+      - arrow
     categories:
       - Направление
 
@@ -2582,6 +2650,8 @@ icons:
     id:         angle-up
     unicode:    f106
     created:    3.0
+    filter:
+      - arrow
     categories:
       - Направление
 
@@ -2589,6 +2659,8 @@ icons:
     id:         angle-down
     unicode:    f107
     created:    3.0
+    filter:
+      - arrow
     categories:
       - Направление
 
@@ -2701,6 +2773,7 @@ icons:
     id:         github-alt
     unicode:    f113
     created:    3.0
+    url:        github.com/logos
     filter:
       - octocat
     categories:
@@ -2725,6 +2798,7 @@ icons:
     unicode:    f118
     created:    3.1
     filter:
+      - face
       - emoticon
       - happy
       - approve
@@ -2738,6 +2812,7 @@ icons:
     unicode:    f119
     created:    3.1
     filter:
+      - face
       - emoticon
       - sad
       - disapprove
@@ -2750,6 +2825,7 @@ icons:
     unicode:    f11a
     created:    3.1
     filter:
+      - face
       - emoticon
       - rating
       - neutral
@@ -2948,6 +3024,9 @@ icons:
     id:         eraser
     unicode:    f12d
     created:    3.1
+    filter:
+      - remove
+      - delete
     categories:
       - Редактирование
       - Веб-приложения
@@ -3006,6 +3085,7 @@ icons:
       - date
       - time
       - when
+      - event
     categories:
       - Веб-приложения
 
@@ -3040,6 +3120,7 @@ icons:
     filter:
       - previous
       - back
+      - arrow
     categories:
       - Направление
 
@@ -3050,6 +3131,7 @@ icons:
     filter:
       - next
       - forward
+      - arrow
     categories:
       - Направление
 
@@ -3057,6 +3139,8 @@ icons:
     id:         chevron-circle-up
     unicode:    f139
     created:    3.1
+    filter:
+      - arrow
     categories:
       - Направление
 
@@ -3068,6 +3152,7 @@ icons:
       - more
       - dropdown
       - menu
+      - arrow
     categories:
       - Направление
 
@@ -3207,6 +3292,8 @@ icons:
     id:         level-up
     unicode:    f148
     created:    3.1
+    filter:
+      - arrow
     categories:
       - Веб-приложения
 
@@ -3214,6 +3301,8 @@ icons:
     id:         level-down
     unicode:    f149
     created:    3.1
+    filter:
+      - arrow
     categories:
       - Веб-приложения
 
@@ -3228,6 +3317,7 @@ icons:
       - agree
       - accept
       - confirm
+      - ok
     categories:
       - Веб-приложения
       - Элементы форм
@@ -3637,6 +3727,7 @@ icons:
     created:    3.2
     filter:
       - osx
+      - food
     categories:
       - Бренды
 
@@ -3653,6 +3744,8 @@ icons:
     id:         android
     unicode:    f17b
     created:    3.2
+    filter:
+      - robot
     categories:
       - Бренды
 
@@ -3878,6 +3971,7 @@ icons:
       - Веб-приложения
       - Медицина
       - Транспорт
+      - Ограничения
 
   - name:       Vimeo Square
     id:         vimeo-square
@@ -3921,6 +4015,10 @@ icons:
     id:         slack
     unicode:    f198
     created:    4.1
+    filter:
+      - hashtag
+      - anchor
+      - hash
     categories:
       - Бренды
 
@@ -4432,7 +4530,6 @@ icons:
     created:    4.1
     categories:
       - Веб-приложения
-      - Гендерные иконки
 
   - name:       header
     id:         header
@@ -4454,6 +4551,8 @@ icons:
     id:         sliders
     unicode:    f1de
     created:    4.1
+    filter:
+      - settings
     categories:
       - Веб-приложения
 
@@ -4496,6 +4595,7 @@ icons:
     created:    4.2
     categories:
       - Веб-приложения
+      - Ограничения
 
   - name:       Binoculars
     id:         binoculars
@@ -4508,6 +4608,9 @@ icons:
     id:         plug
     unicode:    f1e6
     created:    4.2
+    filter:
+      - power
+      - connect
     categories:
       - Веб-приложения
 
@@ -4786,6 +4889,7 @@ icons:
     created:    4.2
     categories:
       - Веб-приложения
+      - Ограничения
 
   - name:       Shekel (ILS)
     id:         ils
@@ -4926,6 +5030,7 @@ icons:
       - whisper
       - spy
       - incognito
+      - privacy
     categories:
       - Веб-приложения
 
@@ -5184,6 +5289,8 @@ icons:
     created:    4.4
     aliases:
       - battery-4
+    filter:
+      - power
     categories:
       - Веб-приложения
 
@@ -5193,6 +5300,8 @@ icons:
     created:    4.4
     aliases:
       - battery-3
+    filter:
+      - power
     categories:
       - Веб-приложения
 
@@ -5202,6 +5311,8 @@ icons:
     created:    4.4
     aliases:
       - battery-2
+    filter:
+      - power
     categories:
       - Веб-приложения
 
@@ -5211,6 +5322,8 @@ icons:
     created:    4.4
     aliases:
       - battery-1
+    filter:
+      - power
     categories:
       - Веб-приложения
 
@@ -5220,6 +5333,8 @@ icons:
     created:    4.4
     aliases:
       - battery-0
+    filter:
+      - power
     categories:
       - Веб-приложения
 
@@ -5355,6 +5470,8 @@ icons:
     created:    4.4
     aliases:
       - hand-stop-o
+    filter:
+      - stop
     categories:
       - Веб-приложения
       - Иконки жестов
@@ -5522,6 +5639,10 @@ icons:
     created:    4.4
     aliases:
       - tv
+    filter:
+      - display
+      - computer
+      - monitor
     categories:
       - Веб-приложения
 
@@ -5572,6 +5693,8 @@ icons:
     id:         calendar-check-o
     unicode:    f274
     created:    4.4
+    filter:
+      - ok
     categories:
       - Веб-приложения
 
@@ -5579,6 +5702,8 @@ icons:
     id:         industry
     unicode:    f275
     created:    4.4
+    filter:
+      - factory
     categories:
       - Веб-приложения
 
@@ -5614,6 +5739,8 @@ icons:
     id:         commenting
     unicode:    f27a
     created:    4.4
+    filter:
+      - message
     categories:
       - Веб-приложения
 
@@ -5621,6 +5748,8 @@ icons:
     id:         commenting-o
     unicode:    f27b
     created:    4.4
+    filter:
+      - message
     categories:
       - Веб-приложения
 
@@ -5677,9 +5806,15 @@ icons:
     unicode:    f283
     created:    4.5
     filter:
+      - money
+      - buy
+      - debit
+      - checkout
+      - purchase
+      - payment
       - credit card
     categories:
-      - Бренды
+      - Веб-приложения
       - Платежные системы
 
   - name:       Codie Pie
@@ -5804,3 +5939,191 @@ icons:
     created:    4.5
     categories:
       - Веб-приложения
+
+  - name:       GitLab
+    id:         gitlab
+    unicode:    f296
+    created:    4.6
+    url:        gitlab.com
+    categories:
+      - Бренды
+
+  - name:       WPBeginner
+    id:         wpbeginner
+    unicode:    f297
+    created:    4.6
+    url:        wpbeginner.com
+    categories:
+      - Бренды
+
+  - name:       WPForms
+    id:         wpforms
+    unicode:    f298
+    created:    4.6
+    url:        wpforms.com
+    categories:
+      - Бренды
+
+  - name:       Envira Gallery
+    id:         envira
+    unicode:    f299
+    created:    4.6
+    url:        enviragallery.com
+    filter:
+      - leaf
+    categories:
+      - Бренды
+
+  - name:       Universal Access
+    id:         universal-access
+    unicode:    f29a
+    created:    4.6
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+  - name:       Wheelchair Alt
+    id:         wheelchair-alt
+    unicode:    f29b
+    created:    4.6
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+  - name:       Question Circle Outlined
+    id:         question-circle-o
+    unicode:    f29c
+    created:    4.6
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+  - name:       Blind
+    id:         blind
+    unicode:    f29d
+    created:    4.6
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+  - name:       Audio Description
+    id:         audio-description
+    unicode:    f29e
+    created:    4.6
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+
+  - name:       Volume Control Phone
+    id:         volume-control-phone
+    unicode:    f2a0
+    created:    4.6
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+  - name:       Braille
+    id:         braille
+    unicode:    f2a1
+    created:    4.6
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+  - name:       Assistive Listening Systems
+    id:         assistive-listening-systems
+    unicode:    f2a2
+    created:    4.6
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+  - name:       American Sign Language Interpreting
+    id:         american-sign-language-interpreting
+    unicode:    f2a3
+    created:    4.6
+    aliases:
+      - asl-interpreting
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+  - name:       Deaf
+    id:         deaf
+    unicode:    f2a4
+    created:    4.6
+    aliases:
+      - deafness
+      - hard-of-hearing
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+  - name:       Glide
+    id:         glide
+    unicode:    f2a5
+    created:    4.6
+    categories:
+      - Бренды
+
+  - name:       Glide G
+    id:         glide-g
+    unicode:    f2a6
+    created:    4.6
+    categories:
+      - Бренды
+
+  - name:       Sign Language
+    id:         sign-language
+    unicode:    f2a7
+    created:    4.6
+    aliases:
+      - signing
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+
+  - name:       Low Vision
+    id:         low-vision
+    unicode:    f2a8
+    created:    4.6
+    categories:
+      - Веб-приложения
+      - Ограничения
+
+  - name:       Viadeo
+    id:         viadeo
+    unicode:    f2a9
+    created:    4.6
+    categories:
+      - Бренды
+
+  - name:       Viadeo Square
+    id:         viadeo-square
+    unicode:    f2aa
+    created:    4.6
+    categories:
+      - Бренды
+
+  - name:       Snapchat
+    id:         snapchat
+    unicode:    f2ab
+    created:    4.6
+    categories:
+      - Бренды
+
+  - name:       Snapchat Ghost
+    id:         snapchat-ghost
+    unicode:    f2ac
+    created:    4.6
+    categories:
+      - Бренды
+
+  - name:       Snapchat Square
+    id:         snapchat-square
+    unicode:    f2ad
+    created:    4.6
+    categories:
+      - Бренды

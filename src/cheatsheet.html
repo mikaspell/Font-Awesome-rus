@@ -3,7 +3,7 @@ layout: base
 title: Шпаргалка по Font Awesome
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="fa fa-list-ul"></i>&nbsp; Шпаргалка{% endcapture %}
+{% capture jumbotron_h1 %}<i class="fa fa-list-ul" aria-hidden="true"></i>&nbsp; Шпаргалка{% endcapture %}
 {% capture jumbotron_p %}Полный список иконок Font Awesome {{ site.fontawesome.version }} {% endcapture %}
 
 {% include jumbotron.html %}
@@ -13,7 +13,7 @@ relative_path: ../
   {% capture stripe_ad_content %}
   <p class="lead">
     Сохраните эту страницу в PDF, чтобы всегда иметь набор иконок под рукой. Если хотите использовать шрифт на компьютере,
-    то установите FontAwesome.otf в системные шрифты и используйте его в любом приложении, копируя и вставляя иконки(не символы юникода) 
+    то установите FontAwesome.otf в системные шрифты и используйте его в любом приложении, копируя и вставляя иконки(не символы юникода)
     из этой шпаргалки в ваши макеты.
   </p>
   {% endcapture %}
@@ -27,7 +27,7 @@ relative_path: ../
     {% for icon in sorted_icons %}
     <div class="col-md-4 col-sm-6 col-lg-3">
       {% if icon.created >= site.fontawesome.major_version %}<small class="text-muted pull-right">{{ icon.created }}</small>{% endif %}
-      <i class="fa fa-fw">&#x{{ icon.unicode }}</i>
+      <i class="fa fa-fw" aria-hidden="true" title="Copy to use {{ icon.class }}">&#x{{ icon.unicode }}</i>
       fa-{{ icon.class }}
       {% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}
       <span class="text-muted">[&amp;#x{{ icon.unicode }};]</span>
