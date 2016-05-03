@@ -1,19 +1,24 @@
 <div id="using-with-accessibility">
-  <h2 class="page-header">Using Font Awesome with Acessibility in mind</h2>
+  <h2 class="page-header">Использование Font Awesome в направлении общедоступности</h2>
   <p>
-    When using icons in your UI, there are ways to help assistive technology either ignore or better understand Font Awesome.
+    Когда используете иконки в вашем интерфейсе, то есть несколько способов помочь вспомогательным технологиям проигнорировать
+    или лучше понять Font Awesome.
   </p>
 
-  <h3>Icons used for pure decoration or visual styling</h3>
+  <h3>Иконки, используемые для декорирования или визуального стиля</h3>
   <p>
-    If you're using an icon to add some extra decoration or branding, it does not need to be announced to users as they are navigating your site or app aurally. Additionally, if you're using an icon to visually re-emphasize or add styling to content already present in your HTML, it does not need to be repeated to an assistive technology-using user. You can make sure this is not read by adding the <code>aria-hidden="true"</code> to your Font Awesome markup.
+    Если иконка используется для декорирования или отображения бренда, то они не должны быть объявлены общедоступно, тк
+    они влияют на приложения, читающие сайты в слух. Кроме того, если вы используете иконки, чтобы визуально подчеркнуть
+    или добавить стиль контенту, то в существующем HTML они не должны быть продублированы в описании для вспомогательных
+    технологий, используемых пользователем. Вы можете убедиться в том, что элемент не читается, добавив ему атрибут
+    <code>aria-hidden="true"</code>.
   </p>
 
   <div class="margin-top-lg margin-bottom-lg">
 {% highlight html %}
 <i class="fa fa-fighter-jet" aria-hidden="true"></i>
 {% endhighlight %}
-<small class="text-muted">an icon being used as pure decoration</small>
+<small class="text-muted">иконка используется для простого декорирования</small>
   </div>
 
   <div class="margin-bottom-lg">
@@ -23,22 +28,25 @@
   Pied Piper, A Middle-Out Compression Solution Making Data Storage Problems Smaller
 </h1>
 {% endhighlight %}
-<small class="text-muted">an icon being used as a logo</small>
+<small class="text-muted">иконка используется как логотип</small>
   </div>
 
   <div class="margin-bottom-lg">
 {% highlight html %}
 <a href="https://github.com/FortAwesome/Font-Awesome"><i class="fa fa-github" aria-hidden="true"></i> View this project's code on Github</a>
 {% endhighlight %}
-<small class="text-muted">an icon being used in front of link text</small>
+<small class="text-muted">иконка используется перед текстом ссылки</small>
   </div>
 
-  <h3>Icons with semantic or interactive purpose</h3>
+  <h3>Иконки с семантической или интерактивной целью</h3>
   <p>
-    If you're using an icon to convey meaning (rather than only as a decorative element), ensure that this meaning is also conveyed to assistive technologies. This goes for content you're abbreviating via icons as well as interactive controls (buttons, form elements, toggles, etc.). There are a few techniques to accomplish this:
+    Если вы используете иконку для того, чтобы передать смысл (а не только в качестве декоративного элемента), убедитесь,
+    что значение иконки также передается вспомогательным технологиям. Это касается контента, который вы сокращаете с помощью
+    иконок, а также интерактивных элементовуправления (кнопки, элементы форм, переключатели и тд). Есть несколько способов
+    для выполнения этой задачи:
   </p>
 
-  <h4>If an icon is <strong>not</strong> an interactive element</h4>
+  <h4>Если иконка <strong>не</strong> является интерактивным элементом</h4>
   <p>
     The simplest way to provide a text alternative is to use the <code>aria-hidden="true"</code> attribute on the icon and to include the text with an additional element, such as a <code>&lt;span&gt;</code>, with appropriate CSS to visually hide the element while keeping it accessible to assistive technologies. In addition, you can add a <code>title</code> attribute on the icon to provide a tooltip for sighted mouse users.
   </p>

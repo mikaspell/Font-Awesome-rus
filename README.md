@@ -6,7 +6,7 @@ created and maintained by [Dave Gandy](https://twitter.com/davegandy).
 Stay up to date with the latest release and announcements on Twitter:
 [@fontawesome](http://twitter.com/fontawesome).
 
-Get started at http://fontawesome.ru!
+Get started at http://fontawesome.io!
 
 ## License
 - The Font Awesome font is licensed under the SIL OFL 1.1:

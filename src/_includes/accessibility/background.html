@@ -1,15 +1,18 @@
 <div id="background">
-  <h2 class="page-header">Icon Fonts &amp; Accessibility</h2>
+  <h2 class="page-header">Иконочные шрифты и Общедоступность</h2>
   <p>
-    Modern versions of assistive technology, like screen readers, will read CSS generated content (how Font Awesome icons are rendered), as well as specific Unicode characters. When trying our default markup for rendering icons, assisistive technology may have the following problems.
+    Современные версии вспомогательных технологий, таких как чтение с экрана, будут читать таблицы стилей сгенерированного
+    контента (как объявить иконки Font Awesome), а также спецсимволы юникода. Если попробовать объявить иконки
+    нашим стандартным методом, то у некоторых вспомогательных технологий могут возникнуть проблемы:
   </p>
 
   <ul>
     <li>
-      The assistive technology may not find any content to read out to a user
+      Вспомогательные технологии могут не найти контента для чтения пользователю
     </li>
     <li>
-      The assistive technology may read the unicode equivalent, which could not match up to what the icon means in context, or worse is just plain confusing
+      Вспомогательные технологии может прочитать значение юникод-сивола, которое может не совпадать с тем, что означает
+      данные символ в контексте или того хуже - просто сбить с толку пользователя.
     </li>
   </ul>
 </div>
