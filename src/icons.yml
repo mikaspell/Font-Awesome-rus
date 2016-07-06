@@ -571,7 +571,7 @@ icons:
       - middle
       - text
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       align-right
     id:         align-right
@@ -580,7 +580,7 @@ icons:
     filter:
       - text
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       align-justify
     id:         align-justify
@@ -589,7 +589,7 @@ icons:
     filter:
       - text
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       list
     id:         list
@@ -604,7 +604,7 @@ icons:
       - done
       - todo
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Outdent
     id:         outdent
@@ -613,14 +613,14 @@ icons:
     aliases:
       - dedent
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Indent
     id:         indent
     unicode:    f03c
     created:    1.0
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Video Camera
     id:         video-camera
@@ -631,7 +631,7 @@ icons:
       - movie
       - record
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Picture Outlined
     id:         picture-o
@@ -641,7 +641,7 @@ icons:
       - photo
       - image
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       pencil
@@ -653,7 +653,7 @@ icons:
       - edit
       - update
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       map-marker
     id:         map-marker
@@ -670,7 +670,7 @@ icons:
       - where
       - place
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       adjust
     id:         adjust
@@ -679,7 +679,7 @@ icons:
     filter:
       - contrast
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       tint
     id:         tint
@@ -691,7 +691,7 @@ icons:
       - drop
       - droplet
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Pencil Square Outlined
     id:         pencil-square-o
@@ -704,7 +704,7 @@ icons:
     aliases:
       - edit
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Share Square Outlined
     id:         share-square-o
@@ -715,7 +715,7 @@ icons:
       - send
       - arrow
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Check Square Outlined
     id:         check-square-o
@@ -729,8 +729,8 @@ icons:
       - confirm
       - ok
     categories:
-      - Веб-приложения
-      - Элементы форм
+      - Web Application Icons
+      - Form Control Icons
 
   - name:       Arrows
     id:         arrows
@@ -741,8 +741,8 @@ icons:
       - reorder
       - resize
     categories:
-      - Веб-приложения
-      - Направление
+      - Web Application Icons
+      - Directional Icons
 
   - name:       step-backward
     id:         step-backward
@@ -755,7 +755,7 @@ icons:
       - start
       - first
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       fast-backward
     id:         fast-backward
@@ -768,7 +768,7 @@ icons:
       - start
       - first
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       backward
     id:         backward
@@ -778,7 +778,7 @@ icons:
       - rewind
       - previous
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       play
     id:         play
@@ -790,7 +790,7 @@ icons:
       - music
       - sound
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       pause
     id:         pause
@@ -799,7 +799,7 @@ icons:
     filter:
       - wait
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       stop
     id:         stop
@@ -810,7 +810,7 @@ icons:
       - box
       - square
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       forward
     id:         forward
@@ -820,7 +820,7 @@ icons:
       - forward
       - next
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
 
   - name:       fast-forward
@@ -832,7 +832,7 @@ icons:
       - end
       - last
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       step-forward
     id:         step-forward
@@ -843,14 +843,14 @@ icons:
       - end
       - last
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       eject
     id:         eject
     unicode:    f052
     created:    1.0
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       chevron-left
     id:         chevron-left
@@ -861,7 +861,7 @@ icons:
       - previous
       - back
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       chevron-right
     id:         chevron-right
@@ -872,7 +872,7 @@ icons:
       - next
       - forward
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Plus Circle
     id:         plus-circle
@@ -884,7 +884,7 @@ icons:
       - create
       - expand
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Minus Circle
     id:         minus-circle
@@ -896,7 +896,7 @@ icons:
       - trash
       - hide
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Times Circle
     id:         times-circle
@@ -907,7 +907,7 @@ icons:
       - exit
       - x
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Check Circle
     id:         check-circle
@@ -921,7 +921,7 @@ icons:
       - confirm
       - ok
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Question Circle
     id:         question-circle
@@ -933,7 +933,7 @@ icons:
       - support
     created:    1.0
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Info Circle
     id:         info-circle
@@ -945,7 +945,7 @@ icons:
       - more
       - details
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Crosshairs
     id:         crosshairs
@@ -954,7 +954,7 @@ icons:
     filter:
       - picker
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Times Circle Outlined
     id:         times-circle-o
@@ -965,7 +965,7 @@ icons:
       - exit
       - x
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Check Circle Outlined
     id:         check-circle-o
@@ -979,7 +979,7 @@ icons:
       - confirm
       - ok
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       ban
     id:         ban
@@ -995,7 +995,7 @@ icons:
       - abort
       - cancel
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       arrow-left
@@ -1006,7 +1006,7 @@ icons:
       - previous
       - back
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       arrow-right
     id:         arrow-right
@@ -1016,14 +1016,14 @@ icons:
       - next
       - forward
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       arrow-up
     id:         arrow-up
     unicode:    f062
     created:    1.0
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       arrow-down
     id:         arrow-down
@@ -1032,7 +1032,7 @@ icons:
     filter:
         - download
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Share
     id:         share
@@ -1041,7 +1041,7 @@ icons:
     aliases:
       - mail-forward
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Expand
     id:         expand
@@ -1052,7 +1052,7 @@ icons:
       - bigger
       - resize
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       Compress
     id:         compress
@@ -1065,7 +1065,7 @@ icons:
       - merge
       - smaller
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       plus
     id:         plus
@@ -1077,7 +1077,7 @@ icons:
       - create
       - expand
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       minus
     id:         minus
@@ -1092,7 +1092,7 @@ icons:
       - hide
       - collapse
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       asterisk
     id:         asterisk
@@ -1101,7 +1101,7 @@ icons:
     filter:
       - details
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Exclamation Circle
     id:         exclamation-circle
@@ -1114,7 +1114,7 @@ icons:
       - notification
       - alert
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       gift
     id:         gift
@@ -1123,7 +1123,7 @@ icons:
     filter:
       - present
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       leaf
     id:         leaf
@@ -1134,7 +1134,7 @@ icons:
       - nature
       - plant
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       fire
     id:         fire
@@ -1145,7 +1145,7 @@ icons:
       - hot
       - popular
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Eye
     id:         eye
@@ -1156,7 +1156,7 @@ icons:
       - visible
       - views
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Eye Slash
@@ -1171,7 +1171,7 @@ icons:
       - visiblity
       - views
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Exclamation Triangle
     id:         exclamation-triangle
@@ -1186,7 +1186,7 @@ icons:
     aliases:
       - warning
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       plane
     id:         plane
@@ -1201,8 +1201,8 @@ icons:
       - fly
       - mode
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       calendar
     id:         calendar
@@ -1214,7 +1214,7 @@ icons:
       - when
       - event
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       random
     id:         random
@@ -1224,8 +1224,8 @@ icons:
       - sort
       - shuffle
     categories:
-      - Веб-приложения
-      - Видео-плеер
+      - Web Application Icons
+      - Video Player Icons
 
   - name:       comment
     id:         comment
@@ -1241,29 +1241,30 @@ icons:
       - message
       - texting
       - sms
+      - conversation
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       magnet
     id:         magnet
     unicode:    f076
     created:    1.0
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       chevron-up
     id:         chevron-up
     unicode:    f077
     created:    1.0
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       chevron-down
     id:         chevron-down
     unicode:    f078
     created:    1.0
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       retweet
     id:         retweet
@@ -1274,7 +1275,7 @@ icons:
       - reload
       - share
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       shopping-cart
     id:         shopping-cart
@@ -1286,21 +1287,21 @@ icons:
       - purchase
       - payment
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Folder
     id:         folder
     unicode:    f07b
     created:    1.0
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Folder Open
     id:         folder-open
     unicode:    f07c
     created:    1.0
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Arrows Vertical
     id:         arrows-v
@@ -1309,8 +1310,8 @@ icons:
     filter:
         - resize
     categories:
-      - Веб-приложения
-      - Направление
+      - Web Application Icons
+      - Directional Icons
 
   - name:       Arrows Horizontal
     id:         arrows-h
@@ -1319,8 +1320,8 @@ icons:
     filter:
         - resize
     categories:
-      - Веб-приложения
-      - Направление
+      - Web Application Icons
+      - Directional Icons
 
 
   - name:       Bar Chart
@@ -1333,8 +1334,8 @@ icons:
       - graph
       - analytics
     categories:
-      - Веб-приложения
-      - Диаграммы
+      - Web Application Icons
+      - Chart Icons
 
   - name:       Twitter Square
     id:         twitter-square
@@ -1344,7 +1345,7 @@ icons:
       - tweet
       - social network
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Facebook Square
     id:         facebook-square
@@ -1353,7 +1354,7 @@ icons:
     filter:
       - social network
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       camera-retro
     id:         camera-retro
@@ -1364,7 +1365,7 @@ icons:
       - picture
       - record
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       key
     id:         key
@@ -1374,7 +1375,7 @@ icons:
       - unlock
       - password
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       cogs
     id:         cogs
@@ -1385,20 +1386,23 @@ icons:
     filter:
       - settings
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       comments
     id:         comments
     unicode:    f086
     created:    1.0
     filter:
-      - conversation
+      - speech
       - notification
-      - notes
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
       - texting
       - sms
-      - chat
+      - conversation
     categories:
       - Веб-приложения
 
@@ -1413,8 +1417,8 @@ icons:
       - agree
       - hand
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       Thumbs Down Outlined
     id:         thumbs-o-down
@@ -1426,8 +1430,8 @@ icons:
       - disagree
       - hand
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       star-half
     id:         star-half
@@ -1439,7 +1443,7 @@ icons:
       - rating
       - score
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Heart Outlined
     id:         heart-o
@@ -1450,8 +1454,8 @@ icons:
       - like
       - favorite
     categories:
-      - Веб-приложения
-      - Медицина
+      - Web Application Icons
+      - Medical Icons
 
   - name:       Sign Out
     id:         sign-out
@@ -1464,14 +1468,14 @@ icons:
       - exit
       - arrow
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       LinkedIn Square
     id:         linkedin-square
     unicode:    f08c
     created:    1.0
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Thumb Tack
     id:         thumb-tack
@@ -1483,7 +1487,7 @@ icons:
       - location
       - coordinates
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       External Link
     id:         external-link
@@ -1493,7 +1497,7 @@ icons:
       - open
       - new
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Sign In
@@ -1511,7 +1515,7 @@ icons:
       - signup
       - arrow
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       trophy
     id:         trophy
@@ -1523,7 +1527,7 @@ icons:
       - winner
       - game
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       GitHub Square
     id:         github-square
@@ -1533,7 +1537,7 @@ icons:
     filter:
       - octocat
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Upload
     id:         upload
@@ -1542,7 +1546,7 @@ icons:
     filter:
      - import
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Lemon Outlined
     id:         lemon-o
@@ -1551,7 +1555,7 @@ icons:
     filter:
       - food
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Phone
     id:         phone
@@ -1564,7 +1568,7 @@ icons:
        - support
        - earphone
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Square Outlined
     id:         square-o
@@ -1575,8 +1579,8 @@ icons:
       - square
       - box
     categories:
-      - Веб-приложения
-      - Элементы форм
+      - Web Application Icons
+      - Form Control Icons
 
 
   - name:       Bookmark Outlined
@@ -1586,7 +1590,7 @@ icons:
     filter:
       - save
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Phone Square
     id:         phone-square
@@ -1598,7 +1602,7 @@ icons:
        - number
        - support
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Twitter
     id:         twitter
@@ -1608,7 +1612,7 @@ icons:
       - tweet
       - social network
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Facebook
     id:         facebook
@@ -1619,7 +1623,7 @@ icons:
     filter:
       - social network
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       GitHub
     id:         github
@@ -1629,7 +1633,7 @@ icons:
     filter:
       - octocat
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       unlock
     id:         unlock
@@ -1641,7 +1645,7 @@ icons:
       - password
       - lock
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       credit-card
     id:         credit-card
@@ -1655,8 +1659,8 @@ icons:
       - purchase
       - payment
     categories:
-      - Веб-приложения
-      - Платежные системы
+      - Web Application Icons
+      - Payment Icons
 
   - name:       rss
     id:         rss
@@ -1667,7 +1671,7 @@ icons:
     aliases:
       - feed
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       HDD
@@ -1680,7 +1684,7 @@ icons:
       - storage
       - save
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       bullhorn
     id:         bullhorn
@@ -1691,8 +1695,9 @@ icons:
       - share
       - broadcast
       - louder
+      - megaphone
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       bell
     id:         bell
@@ -1703,7 +1708,7 @@ icons:
       - reminder
       - notification
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       certificate
     id:         certificate
@@ -1713,7 +1718,7 @@ icons:
       - badge
       - star
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Hand Outlined Right
     id:         hand-o-right
@@ -1726,8 +1731,8 @@ icons:
       - forward
       - finger
     categories:
-      - Направление
-      - Иконки жестов
+      - Directional Icons
+      - Hand Icons
 
   - name:       Hand Outlined Left
     id:         hand-o-left
@@ -1740,8 +1745,8 @@ icons:
       - back
       - finger
     categories:
-      - Направление
-      - Иконки жестов
+      - Directional Icons
+      - Hand Icons
 
   - name:       Hand Outlined Up
     id:         hand-o-up
@@ -1751,8 +1756,8 @@ icons:
       - point
       - finger
     categories:
-      - Направление
-      - Иконки жестов
+      - Directional Icons
+      - Hand Icons
 
   - name:       Hand Outlined Down
     id:         hand-o-down
@@ -1762,8 +1767,8 @@ icons:
       - point
       - finger
     categories:
-      - Направление
-      - Иконки жестов
+      - Directional Icons
+      - Hand Icons
 
   - name:       Arrow Circle Left
     id:         arrow-circle-left
@@ -1773,7 +1778,7 @@ icons:
       - previous
       - back
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Arrow Circle Right
     id:         arrow-circle-right
@@ -1783,14 +1788,14 @@ icons:
       - next
       - forward
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Arrow Circle Up
     id:         arrow-circle-up
     unicode:    f0aa
     created:    2.0
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Arrow Circle Down
     id:         arrow-circle-down
@@ -1799,7 +1804,7 @@ icons:
     filter:
         - download
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Globe
     id:         globe
@@ -1821,7 +1826,7 @@ icons:
       - coordinates
       - country
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Wrench
     id:         wrench
@@ -1832,7 +1837,7 @@ icons:
       - fix
       - update
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Tasks
     id:         tasks
@@ -1845,7 +1850,7 @@ icons:
        - downloads
        - settings
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Filter
@@ -1856,7 +1861,7 @@ icons:
       - funnel
       - options
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Briefcase
     id:         briefcase
@@ -1869,7 +1874,7 @@ icons:
       - luggage
       - bag
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Arrows Alt
     id:         arrows-alt
@@ -1885,8 +1890,8 @@ icons:
       - resize
       - arrow
     categories:
-      - Видео-плеер
-      - Направление
+      - Video Player Icons
+      - Directional Icons
 
 
   - name:       Users
@@ -1900,7 +1905,7 @@ icons:
     aliases:
       - group
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Link
     id:         link
@@ -1911,7 +1916,7 @@ icons:
     aliases:
       - chain
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Cloud
     id:         cloud
@@ -1920,7 +1925,7 @@ icons:
     unicode:    f0c2
     created:    2.0
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Flask
     id:         flask
@@ -1932,7 +1937,7 @@ icons:
       - experimental
       - labs
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Scissors
     id:         scissors
@@ -1941,7 +1946,7 @@ icons:
     aliases:
       - cut
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Files Outlined
     id:         files-o
@@ -1954,7 +1959,7 @@ icons:
     aliases:
       - copy
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Paperclip
     id:         paperclip
@@ -1963,7 +1968,7 @@ icons:
     filter:
       - attachment
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Floppy Outlined
     id:         floppy-o
@@ -1972,7 +1977,7 @@ icons:
     aliases:
       - save
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Square
     id:         square
@@ -1982,8 +1987,8 @@ icons:
       - block
       - box
     categories:
-      - Веб-приложения
-      - Элементы форм
+      - Web Application Icons
+      - Form Control Icons
 
   - name:       Bars
     id:         bars
@@ -2005,7 +2010,7 @@ icons:
       - list
       - hamburger
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       list-ul
     id:         list-ul
@@ -2018,7 +2023,7 @@ icons:
       - todo
       - list
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       list-ol
     id:         list-ol
@@ -2033,21 +2038,21 @@ icons:
       - list
       - numbers
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Strikethrough
     id:         strikethrough
     unicode:    f0cc
     created:    2.0
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Underline
     id:         underline
     unicode:    f0cd
     created:    2.0
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       table
     id:         table
@@ -2058,7 +2063,7 @@ icons:
       - excel
       - spreadsheet
     categories:
-      - Редактирование
+      - Text Editor Icons
 
 
   - name:       magic
@@ -2070,7 +2075,7 @@ icons:
       - automatic
       - autocomplete
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       truck
     id:         truck
@@ -2079,22 +2084,22 @@ icons:
     filter:
       - shipping
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       Pinterest
     id:         pinterest
     unicode:    f0d2
     created:    2.0
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Pinterest Square
     id:         pinterest-square
     unicode:    f0d3
     created:    2.0
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Google Plus Square
     id:         google-plus-square
@@ -2103,7 +2108,7 @@ icons:
     filter:
       - social network
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Google Plus
     id:         google-plus
@@ -2112,7 +2117,7 @@ icons:
     filter:
       - social network
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Money
     id:         money
@@ -2126,8 +2131,8 @@ icons:
       - purchase
       - payment
     categories:
-      - Веб-приложения
-      - Валюты
+      - Web Application Icons
+      - Currency Icons
 
   - name:       Caret Down
     id:         caret-down
@@ -2140,7 +2145,7 @@ icons:
       - triangle down
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Caret Up
     id:         caret-up
@@ -2150,7 +2155,7 @@ icons:
       - triangle up
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Caret Left
     id:         caret-left
@@ -2162,7 +2167,7 @@ icons:
       - triangle left
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Caret Right
     id:         caret-right
@@ -2174,7 +2179,7 @@ icons:
       - triangle right
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Columns
     id:         columns
@@ -2184,7 +2189,7 @@ icons:
       - split
       - panes
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Sort
     id:         sort
@@ -2195,7 +2200,7 @@ icons:
     aliases:
       - unsorted
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Sort Descending
     id:         sort-desc
@@ -2209,7 +2214,7 @@ icons:
     aliases:
       - sort-down
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Sort Ascending
     id:         sort-asc
@@ -2220,7 +2225,7 @@ icons:
     filter:
       - arrow
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Envelope
@@ -2235,14 +2240,14 @@ icons:
       - mail
       - notification
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       LinkedIn
     id:         linkedin
     unicode:    f0e1
     created:    2.0
     categories:
-      - Бренды
+      - Brand Icons
 
 
   - name:       Undo
@@ -2254,7 +2259,7 @@ icons:
     aliases:
       - rotate-left
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Gavel
     id:         gavel
@@ -2267,7 +2272,7 @@ icons:
     aliases:
       - legal
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Tachometer
     id:         tachometer
@@ -2279,7 +2284,7 @@ icons:
     aliases:
       - dashboard
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       comment-o
     id:         comment-o
@@ -2295,6 +2300,7 @@ icons:
       - message
       - texting
       - sms
+      - conversation
     categories:
       - Веб-приложения
 
@@ -2303,13 +2309,16 @@ icons:
     unicode:    f0e6
     created:    2.0
     filter:
-      - conversation
+      - speech
       - notification
-      - notes
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
       - texting
       - sms
-      - chat
+      - conversation
     categories:
       - Веб-приложения
 
@@ -2323,7 +2332,7 @@ icons:
     aliases:
       - flash
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Sitemap
     id:         sitemap
@@ -2334,14 +2343,14 @@ icons:
       - hierarchy
       - organization
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Umbrella
     id:         umbrella
     unicode:    f0e9
     created:    2.0
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Clipboard
     id:         clipboard
@@ -2352,7 +2361,7 @@ icons:
     aliases:
       - paste
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Lightbulb Outlined
     id:         lightbulb-o
@@ -2362,7 +2371,7 @@ icons:
       - idea
       - inspiration
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Exchange
     id:         exchange
@@ -2373,8 +2382,8 @@ icons:
       - arrows
       - arrow
     categories:
-      - Веб-приложения
-      - Направление
+      - Web Application Icons
+      - Directional Icons
 
   - name:       Cloud Download
     id:         cloud-download
@@ -2383,7 +2392,7 @@ icons:
     filter:
       - import
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Cloud Upload
     id:         cloud-upload
@@ -2392,7 +2401,7 @@ icons:
     filter:
       - import
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       user-md
@@ -2405,14 +2414,14 @@ icons:
       - medical
       - nurse
     categories:
-      - Медицина
+      - Medical Icons
 
   - name:       Stethoscope
     id:         stethoscope
     unicode:    f0f1
     created:    3.0
     categories:
-      - Медицина
+      - Medical Icons
 
   - name:       Suitcase
     id:         suitcase
@@ -2425,7 +2434,7 @@ icons:
       - move
       - baggage
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Bell Outlined
     id:         bell-o
@@ -2436,7 +2445,7 @@ icons:
       - reminder
       - notification
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Coffee
     id:         coffee
@@ -2450,7 +2459,7 @@ icons:
       - drink
       - cafe
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Cutlery
     id:         cutlery
@@ -2464,7 +2473,7 @@ icons:
        - dinner
        - eat
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       File Text Outlined
     id:         file-text-o
@@ -2476,8 +2485,8 @@ icons:
       - pdf
       - document
     categories:
-      - Редактирование
-      - Типы файлов
+      - Text Editor Icons
+      - File Type Icons
 
   - name:       Building Outlined
     id:         building-o
@@ -2490,7 +2499,7 @@ icons:
       - office
       - company
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       hospital Outlined
     id:         hospital-o
@@ -2499,7 +2508,7 @@ icons:
     filter:
       - building
     categories:
-      - Медицина
+      - Medical Icons
 
   - name:       ambulance
     id:         ambulance
@@ -2510,8 +2519,8 @@ icons:
       - support
       - help
     categories:
-      - Медицина
-      - Транспорт
+      - Medical Icons
+      - Transportation Icons
 
   - name:       medkit
     id:         medkit
@@ -2524,7 +2533,7 @@ icons:
       - support
       - health
     categories:
-      - Медицина
+      - Medical Icons
 
   - name:       fighter-jet
     id:         fighter-jet
@@ -2538,8 +2547,8 @@ icons:
       - fast
       - travel
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       beer
     id:         beer
@@ -2553,7 +2562,7 @@ icons:
       - bar
       - liquor
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       H Square
     id:         h-square
@@ -2563,7 +2572,7 @@ icons:
       - hospital
       - hotel
     categories:
-      - Медицина
+      - Medical Icons
 
   - name:       Plus Square
     id:         plus-square
@@ -2575,9 +2584,9 @@ icons:
       - create
       - expand
     categories:
-      - Медицина
-      - Веб-приложения
-      - Элементы форм
+      - Medical Icons
+      - Web Application Icons
+      - Form Control Icons
 
 
   - name:       Angle Double Left
@@ -2591,7 +2600,7 @@ icons:
       - back
       - arrows
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Angle Double Right
     id:         angle-double-right
@@ -2604,7 +2613,7 @@ icons:
       - forward
       - arrows
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Angle Double Up
     id:         angle-double-up
@@ -2613,7 +2622,7 @@ icons:
     filter:
       - arrows
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Angle Double Down
     id:         angle-double-down
@@ -2622,7 +2631,7 @@ icons:
     filter:
       - arrows
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       angle-left
     id:         angle-left
@@ -2633,7 +2642,7 @@ icons:
       - back
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       angle-right
     id:         angle-right
@@ -2644,7 +2653,7 @@ icons:
       - forward
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       angle-up
     id:         angle-up
@@ -2653,7 +2662,7 @@ icons:
     filter:
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       angle-down
     id:         angle-down
@@ -2662,7 +2671,7 @@ icons:
     filter:
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Desktop
     id:         desktop
@@ -2676,7 +2685,7 @@ icons:
       - demo
       - device
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Laptop
     id:         laptop
@@ -2687,7 +2696,7 @@ icons:
       - computer
       - device
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       tablet
     id:         tablet
@@ -2697,7 +2706,7 @@ icons:
       - ipad
       - device
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Mobile Phone
     id:         mobile
@@ -2713,29 +2722,29 @@ icons:
     aliases:
       - mobile-phone
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Circle Outlined
     id:         circle-o
     unicode:    f10c
     created:    3.0
     categories:
-      - Веб-приложения
-      - Элементы форм
+      - Web Application Icons
+      - Form Control Icons
 
   - name:       quote-left
     id:         quote-left
     unicode:    f10d
     created:    3.0
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       quote-right
     id:         quote-right
     unicode:    f10e
     created:    3.0
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Spinner
@@ -2746,8 +2755,8 @@ icons:
       - loading
       - progress
     categories:
-      - Веб-приложения
-      - Вращающиеся иконки
+      - Web Application Icons
+      - Spinner Icons
 
   - name:       Circle
     id:         circle
@@ -2757,8 +2766,8 @@ icons:
       - dot
       - notification
     categories:
-      - Веб-приложения
-      - Элементы форм
+      - Web Application Icons
+      - Form Control Icons
 
   - name:       Reply
     id:         reply
@@ -2767,7 +2776,7 @@ icons:
     aliases:
       - mail-reply
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       GitHub Alt
     id:         github-alt
@@ -2777,21 +2786,21 @@ icons:
     filter:
       - octocat
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Folder Outlined
     id:         folder-o
     unicode:    f114
     created:    3.0
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Folder Open Outlined
     id:         folder-open-o
     unicode:    f115
     created:    3.0
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Smile Outlined
     id:         smile-o
@@ -2805,7 +2814,7 @@ icons:
       - satisfied
       - rating
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Frown Outlined
     id:         frown-o
@@ -2818,7 +2827,7 @@ icons:
       - disapprove
       - rating
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Meh Outlined
     id:         meh-o
@@ -2830,7 +2839,7 @@ icons:
       - rating
       - neutral
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Gamepad
     id:         gamepad
@@ -2839,7 +2848,7 @@ icons:
     filter:
       - controller
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Keyboard Outlined
     id:         keyboard-o
@@ -2849,7 +2858,7 @@ icons:
       - type
       - input
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Flag Outlined
     id:         flag-o
@@ -2859,7 +2868,7 @@ icons:
       - report
       - notification
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       flag-checkered
     id:         flag-checkered
@@ -2870,7 +2879,7 @@ icons:
       - notification
       - notify
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Terminal
@@ -2882,7 +2891,7 @@ icons:
       - prompt
       - code
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Code
     id:         code
@@ -2892,7 +2901,7 @@ icons:
       - html
       - brackets
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       reply-all
     id:         reply-all
@@ -2901,7 +2910,7 @@ icons:
     aliases:
       - mail-reply-all
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Star Half Outlined
     id:         star-half-o
@@ -2916,7 +2925,7 @@ icons:
       - star-half-empty
       - star-half-full
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       location-arrow
     id:         location-arrow
@@ -2930,14 +2939,14 @@ icons:
       - place
       - where
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       crop
     id:         crop
     unicode:    f125
     created:    3.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       code-fork
     id:         code-fork
@@ -2953,7 +2962,7 @@ icons:
       - version
       - merge
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Chain Broken
     id:         chain-broken
@@ -2964,7 +2973,7 @@ icons:
     aliases:
       - unlink
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Question
     id:         question
@@ -2976,7 +2985,7 @@ icons:
       - unknown
       - support
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Info
     id:         info
@@ -2988,7 +2997,7 @@ icons:
       - more
       - details
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       exclamation
     id:         exclamation
@@ -3002,7 +3011,7 @@ icons:
       - notify
       - alert
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       superscript
     id:         superscript
@@ -3011,14 +3020,14 @@ icons:
     filter:
       - exponential
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       subscript
     id:         subscript
     unicode:    f12c
     created:    3.1
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       eraser
     id:         eraser
@@ -3028,8 +3037,8 @@ icons:
       - remove
       - delete
     categories:
-      - Редактирование
-      - Веб-приложения
+      - Text Editor Icons
+      - Web Application Icons
 
   - name:       Puzzle Piece
     id:         puzzle-piece
@@ -3040,7 +3049,7 @@ icons:
       - add-on
       - section
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       microphone
@@ -3052,7 +3061,7 @@ icons:
       - voice
       - sound
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Microphone Slash
     id:         microphone-slash
@@ -3064,7 +3073,7 @@ icons:
       - sound
       - mute
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       shield
     id:         shield
@@ -3075,7 +3084,7 @@ icons:
       - achievement
       - winner
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       calendar-o
     id:         calendar-o
@@ -3087,14 +3096,14 @@ icons:
       - when
       - event
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       fire-extinguisher
     id:         fire-extinguisher
     unicode:    f134
     created:    3.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       rocket
     id:         rocket
@@ -3103,15 +3112,15 @@ icons:
     filter:
       - app
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       MaxCDN
     id:         maxcdn
     unicode:    f136
     created:    3.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Chevron Circle Left
     id:         chevron-circle-left
@@ -3122,7 +3131,7 @@ icons:
       - back
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Chevron Circle Right
     id:         chevron-circle-right
@@ -3133,7 +3142,7 @@ icons:
       - forward
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Chevron Circle Up
     id:         chevron-circle-up
@@ -3142,7 +3151,7 @@ icons:
     filter:
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Chevron Circle Down
     id:         chevron-circle-down
@@ -3154,7 +3163,7 @@ icons:
       - menu
       - arrow
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       HTML 5 Logo
     id:         html5
@@ -3164,7 +3173,7 @@ icons:
       - code
       - html5
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       CSS 3 Logo
     id:         css3
@@ -3173,7 +3182,7 @@ icons:
     filter:
       - code
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Anchor
     id:         anchor
@@ -3182,7 +3191,7 @@ icons:
     filter:
       - link
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Unlock Alt
     id:         unlock-alt
@@ -3194,7 +3203,7 @@ icons:
       - password
       - lock
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Bullseye
@@ -3204,7 +3213,7 @@ icons:
     filter:
       - target
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Ellipsis Horizontal
     id:         ellipsis-h
@@ -3213,7 +3222,7 @@ icons:
     filter:
       - dots
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Ellipsis Vertical
     id:         ellipsis-v
@@ -3222,7 +3231,7 @@ icons:
     filter:
       - dots
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       RSS Square
     id:         rss-square
@@ -3232,7 +3241,7 @@ icons:
       - feed
       - blog
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Play Circle
     id:         play-circle
@@ -3242,7 +3251,7 @@ icons:
       - start
       - playing
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       Ticket
     id:         ticket
@@ -3253,7 +3262,7 @@ icons:
       - pass
       - support
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Minus Square
     id:         minus-square
@@ -3268,8 +3277,8 @@ icons:
       - hide
       - collapse
     categories:
-      - Веб-приложения
-      - Элементы форм
+      - Web Application Icons
+      - Form Control Icons
 
   - name:       Minus Square Outlined
     id:         minus-square-o
@@ -3284,8 +3293,8 @@ icons:
       - hide
       - collapse
     categories:
-      - Веб-приложения
-      - Элементы форм
+      - Web Application Icons
+      - Form Control Icons
 
 
   - name:       Level Up
@@ -3295,7 +3304,7 @@ icons:
     filter:
       - arrow
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Level Down
     id:         level-down
@@ -3304,7 +3313,7 @@ icons:
     filter:
       - arrow
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Check Square
     id:         check-square
@@ -3319,8 +3328,8 @@ icons:
       - confirm
       - ok
     categories:
-      - Веб-приложения
-      - Элементы форм
+      - Web Application Icons
+      - Form Control Icons
 
   - name:       Pencil Square
     id:         pencil-square
@@ -3331,7 +3340,7 @@ icons:
       - edit
       - update
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       External Link Square
     id:         external-link-square
@@ -3341,7 +3350,7 @@ icons:
       - open
       - new
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Share Square
     id:         share-square
@@ -3351,7 +3360,7 @@ icons:
       - social
       - send
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Compass
     id:         compass
@@ -3363,7 +3372,7 @@ icons:
       - menu
       - location
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Caret Square Outlined Down
@@ -3377,8 +3386,8 @@ icons:
       - dropdown
       - menu
     categories:
-      - Веб-приложения
-      - Направление
+      - Web Application Icons
+      - Directional Icons
 
   - name:       Caret Square Outlined Up
     id:         caret-square-o-up
@@ -3387,8 +3396,8 @@ icons:
     aliases:
       - toggle-up
     categories:
-      - Веб-приложения
-      - Направление
+      - Web Application Icons
+      - Directional Icons
 
   - name:       Caret Square Outlined Right
     id:         caret-square-o-right
@@ -3400,8 +3409,8 @@ icons:
     aliases:
       - toggle-right
     categories:
-      - Веб-приложения
-      - Направление
+      - Web Application Icons
+      - Directional Icons
 
   - name:       Euro (EUR)
     id:         eur
@@ -3410,14 +3419,14 @@ icons:
     aliases:
       - euro
     categories:
-      - Валюты
+      - Currency Icons
 
   - name:       GBP
     id:         gbp
     unicode:    f154
     created:    3.2
     categories:
-      - Валюты
+      - Currency Icons
 
   - name:       US Dollar
     id:         usd
@@ -3426,7 +3435,7 @@ icons:
     aliases:
       - dollar
     categories:
-      - Валюты
+      - Currency Icons
 
   - name:       Indian Rupee (INR)
     id:         inr
@@ -3435,7 +3444,7 @@ icons:
     aliases:
       - rupee
     categories:
-      - Валюты
+      - Currency Icons
 
   - name:       Japanese Yen (JPY)
     id:         jpy
@@ -3446,7 +3455,7 @@ icons:
       - rmb
       - yen
     categories:
-      - Валюты
+      - Currency Icons
 
   - name:       Russian Ruble (RUB)
     id:         rub
@@ -3456,7 +3465,7 @@ icons:
       - ruble
       - rouble
     categories:
-      - Валюты
+      - Currency Icons
 
   - name:       Korean Won (KRW)
     id:         krw
@@ -3465,7 +3474,7 @@ icons:
     aliases:
       - won
     categories:
-      - Валюты
+      - Currency Icons
 
   - name:       Bitcoin (BTC)
     id:         btc
@@ -3474,8 +3483,8 @@ icons:
     aliases:
       - bitcoin
     categories:
-      - Валюты
-      - Бренды
+      - Currency Icons
+      - Brand Icons
 
   - name:       File
     id:         file
@@ -3487,8 +3496,8 @@ icons:
       - pdf
       - document
     categories:
-      - Редактирование
-      - Типы файлов
+      - Text Editor Icons
+      - File Type Icons
 
   - name:       File Text
     id:         file-text
@@ -3500,22 +3509,22 @@ icons:
       - pdf
       - document
     categories:
-      - Редактирование
-      - Типы файлов
+      - Text Editor Icons
+      - File Type Icons
 
   - name:       Sort Alpha Ascending
     id:         sort-alpha-asc
     unicode:    f15d
     created:    3.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Sort Alpha Descending
     id:         sort-alpha-desc
     unicode:    f15e
     created:    3.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Sort Amount Ascending
@@ -3523,14 +3532,14 @@ icons:
     unicode:    f160
     created:    3.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Sort Amount Descending
     id:         sort-amount-desc
     unicode:    f161
     created:    3.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Sort Numeric Ascending
     id:         sort-numeric-asc
@@ -3539,7 +3548,7 @@ icons:
     filter:
       - numbers
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Sort Numeric Descending
     id:         sort-numeric-desc
@@ -3548,7 +3557,7 @@ icons:
     filter:
       - numbers
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       thumbs-up
@@ -3562,8 +3571,8 @@ icons:
       - agree
       - hand
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       thumbs-down
     id:         thumbs-down
@@ -3575,8 +3584,8 @@ icons:
       - disagree
       - hand
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       YouTube Square
     id:         youtube-square
@@ -3586,7 +3595,7 @@ icons:
       - video
       - film
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       YouTube
     id:         youtube
@@ -3596,21 +3605,21 @@ icons:
       - video
       - film
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Xing
     id:         xing
     unicode:    f168
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Xing Square
     id:         xing-square
     unicode:    f169
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       YouTube Play
     id:         youtube-play
@@ -3620,27 +3629,27 @@ icons:
       - start
       - playing
     categories:
-      - Бренды
-      - Видео-плеер
+      - Brand Icons
+      - Video Player Icons
 
   - name:       Dropbox
     id:         dropbox
     unicode:    f16b
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Stack Overflow
     id:         stack-overflow
     unicode:    f16c
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Instagram
     id:         instagram
     unicode:    f16d
-    created:    3.2
+    created:    4.6
     categories:
       - Бренды
 
@@ -3649,14 +3658,14 @@ icons:
     unicode:    f16e
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       App.net
     id:         adn
     unicode:    f170
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Bitbucket
     id:         bitbucket
@@ -3665,7 +3674,7 @@ icons:
     filter:
         - git
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Bitbucket Square
     id:         bitbucket-square
@@ -3674,35 +3683,35 @@ icons:
     filter:
         - git
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Tumblr
     id:         tumblr
     unicode:    f173
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Tumblr Square
     id:         tumblr-square
     unicode:    f174
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Long Arrow Down
     id:         long-arrow-down
     unicode:    f175
     created:    3.2
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Long Arrow Up
     id:         long-arrow-up
     unicode:    f176
     created:    3.2
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Long Arrow Left
     id:         long-arrow-left
@@ -3712,14 +3721,14 @@ icons:
       - previous
       - back
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Long Arrow Right
     id:         long-arrow-right
     unicode:    f178
     created:    3.2
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Apple
     id:         apple
@@ -3729,7 +3738,7 @@ icons:
       - osx
       - food
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Windows
     id:         windows
@@ -3738,7 +3747,7 @@ icons:
     filter:
       - microsoft
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Android
     id:         android
@@ -3747,7 +3756,7 @@ icons:
     filter:
       - robot
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Linux
     id:         linux
@@ -3756,21 +3765,21 @@ icons:
     filter:
       - tux
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Dribbble
     id:         dribbble
     unicode:    f17d
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Skype
     id:         skype
     unicode:    f17e
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
 
   - name:       Foursquare
@@ -3778,14 +3787,14 @@ icons:
     unicode:    f180
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Trello
     id:         trello
     unicode:    f181
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Female
     id:         female
@@ -3797,7 +3806,7 @@ icons:
       - person
       - profile
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Male
     id:         male
@@ -3809,7 +3818,7 @@ icons:
       - person
       - profile
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Gratipay (Gittip)
     id:         gratipay
@@ -3823,7 +3832,7 @@ icons:
       - favorite
       - love
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Sun Outlined
     id:         sun-o
@@ -3836,7 +3845,7 @@ icons:
       - brighten
       - day
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Moon Outlined
     id:         moon-o
@@ -3847,7 +3856,7 @@ icons:
        - darker
        - contrast
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Archive
     id:         archive
@@ -3857,7 +3866,7 @@ icons:
       - box
       - storage
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Bug
     id:         bug
@@ -3867,28 +3876,28 @@ icons:
       - report
       - insect
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       VK
     id:         vk
     unicode:    f189
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Weibo
     id:         weibo
     unicode:    f18a
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Renren
     id:         renren
     unicode:    f18b
     created:    3.2
     categories:
-      - Бренды
+      - Brand Icons
 
 
   - name:       Pagelines
@@ -3903,14 +3912,14 @@ icons:
       - eco
       - nature
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Stack Exchange
     id:         stack-exchange
     unicode:    f18d
     created:    4.0
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Arrow Circle Outlined Right
     id:         arrow-circle-o-right
@@ -3920,7 +3929,7 @@ icons:
       - next
       - forward
     categories:
-      - Направление
+      - Directional Icons
 
 
   - name:       Arrow Circle Outlined Left
@@ -3931,7 +3940,7 @@ icons:
       - previous
       - back
     categories:
-      - Направление
+      - Directional Icons
 
   - name:       Caret Square Outlined Left
     id:         caret-square-o-left
@@ -3943,8 +3952,8 @@ icons:
     aliases:
       - toggle-left
     categories:
-      - Веб-приложения
-      - Направление
+      - Web Application Icons
+      - Directional Icons
 
   - name:       Dot Circle Outlined
     id:         dot-circle-o
@@ -3955,8 +3964,8 @@ icons:
       - bullseye
       - notification
     categories:
-      - Веб-приложения
-      - Элементы форм
+      - Web Application Icons
+      - Form Control Icons
 
   - name:       Wheelchair
     id:         wheelchair
@@ -3965,8 +3974,6 @@ icons:
     filter:
       - handicap
       - person
-      - accessibility
-      - accessibile
     categories:
       - Веб-приложения
       - Медицина
@@ -3978,7 +3985,7 @@ icons:
     unicode:    f194
     created:    4.0
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Turkish Lira (TRY)
     id:         try
@@ -3987,7 +3994,7 @@ icons:
     aliases:
       - turkish-lira
     categories:
-      - Валюты
+      - Currency Icons
 
   - name:       Plus Square Outlined
     id:         plus-square-o
@@ -3999,8 +4006,8 @@ icons:
       - create
       - expand
     categories:
-      - Веб-приложения
-      - Элементы форм
+      - Web Application Icons
+      - Form Control Icons
 
   - name:       Space Shuttle
     id:         space-shuttle
@@ -4008,8 +4015,8 @@ icons:
     created:    4.1
     filter:
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       Slack Logo
     id:         slack
@@ -4020,28 +4027,28 @@ icons:
       - anchor
       - hash
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Envelope Square
     id:         envelope-square
     unicode:    f199
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       WordPress Logo
     id:         wordpress
     unicode:    f19a
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       OpenID
     id:         openid
     unicode:    f19b
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       University
     id:         university
@@ -4051,7 +4058,7 @@ icons:
       - institution
       - bank
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Graduation Cap
     id:         graduation-cap
@@ -4064,14 +4071,14 @@ icons:
       - school
       - student
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Yahoo Logo
     id:         yahoo
     unicode:    f19e
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
 
   - name:       Google Logo
@@ -4079,91 +4086,91 @@ icons:
     unicode:    f1a0
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       reddit Logo
     id:         reddit
     unicode:    f1a1
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       reddit Square
     id:         reddit-square
     unicode:    f1a2
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       StumbleUpon Circle
     id:         stumbleupon-circle
     unicode:    f1a3
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       StumbleUpon Logo
     id:         stumbleupon
     unicode:    f1a4
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Delicious Logo
     id:         delicious
     unicode:    f1a5
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Digg Logo
     id:         digg
     unicode:    f1a6
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
-  - name:       Pied Piper Logo
-    id:         pied-piper
+  - name:       Pied Piper PP Logo (Old)
+    id:         pied-piper-pp
     unicode:    f1a7
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Pied Piper Alternate Logo
     id:         pied-piper-alt
     unicode:    f1a8
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Drupal Logo
     id:         drupal
     unicode:    f1a9
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Joomla Logo
     id:         joomla
     unicode:    f1aa
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Language
     id:         language
     unicode:    f1ab
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Fax
     id:         fax
     unicode:    f1ac
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Building
     id:         building
@@ -4176,14 +4183,14 @@ icons:
       - office
       - company
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Child
     id:         child
     unicode:    f1ae
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Paw
@@ -4193,63 +4200,63 @@ icons:
     filter:
       - pet
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       spoon
     id:         spoon
     unicode:    f1b1
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Cube
     id:         cube
     unicode:    f1b2
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Cubes
     id:         cubes
     unicode:    f1b3
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Behance
     id:         behance
     unicode:    f1b4
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Behance Square
     id:         behance-square
     unicode:    f1b5
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Steam
     id:         steam
     unicode:    f1b6
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Steam Square
     id:         steam-square
     unicode:    f1b7
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Recycle
     id:         recycle
     unicode:    f1b8
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Car
     id:         car
@@ -4260,8 +4267,8 @@ icons:
     filter:
       - vehicle
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       Taxi
     id:         taxi
@@ -4272,75 +4279,75 @@ icons:
     filter:
       - vehicle
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       Tree
     id:         tree
     unicode:    f1bb
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Spotify
     id:         spotify
     unicode:    f1bc
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       deviantART
     id:         deviantart
     unicode:    f1bd
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       SoundCloud
     id:         soundcloud
     unicode:    f1be
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Database
     id:         database
     unicode:    f1c0
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       PDF File Outlined
     id:         file-pdf-o
     unicode:    f1c1
     created:    4.1
     categories:
-      - Веб-приложения
-      - Типы файлов
+      - Web Application Icons
+      - File Type Icons
 
   - name:       Word File Outlined
     id:         file-word-o
     unicode:    f1c2
     created:    4.1
     categories:
-      - Веб-приложения
-      - Типы файлов
+      - Web Application Icons
+      - File Type Icons
 
   - name:       Excel File Outlined
     id:         file-excel-o
     unicode:    f1c3
     created:    4.1
     categories:
-      - Веб-приложения
-      - Типы файлов
+      - Web Application Icons
+      - File Type Icons
 
   - name:       Powerpoint File Outlined
     id:         file-powerpoint-o
     unicode:    f1c4
     created:    4.1
     categories:
-      - Веб-приложения
-      - Типы файлов
+      - Web Application Icons
+      - File Type Icons
 
   - name:       Image File Outlined
     id:         file-image-o
@@ -4350,8 +4357,8 @@ icons:
       - file-photo-o
       - file-picture-o
     categories:
-      - Веб-приложения
-      - Типы файлов
+      - Web Application Icons
+      - File Type Icons
 
   - name:       Archive File Outlined
     id:         file-archive-o
@@ -4360,8 +4367,8 @@ icons:
     aliases:
       - file-zip-o
     categories:
-      - Веб-приложения
-      - Типы файлов
+      - Web Application Icons
+      - File Type Icons
 
   - name:       Audio File Outlined
     id:         file-audio-o
@@ -4370,8 +4377,8 @@ icons:
     aliases:
       - file-sound-o
     categories:
-      - Веб-приложения
-      - Типы файлов
+      - Web Application Icons
+      - File Type Icons
 
   - name:       Video File Outlined
     id:         file-video-o
@@ -4380,37 +4387,37 @@ icons:
     aliases:
       - file-movie-o
     categories:
-      - Веб-приложения
-      - Типы файлов
+      - Web Application Icons
+      - File Type Icons
 
   - name:       Code File Outlined
     id:         file-code-o
     unicode:    f1c9
     created:    4.1
     categories:
-      - Веб-приложения
-      - Типы файлов
+      - Web Application Icons
+      - File Type Icons
 
   - name:       Vine
     id:         vine
     unicode:    f1ca
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Codepen
     id:         codepen
     unicode:    f1cb
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       jsFiddle
     id:         jsfiddle
     unicode:    f1cc
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Life Ring
     id:         life-ring
@@ -4422,15 +4429,15 @@ icons:
       - life-saver
       - support
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Circle Outlined Notched
     id:         circle-o-notch
     unicode:    f1ce
     created:    4.1
     categories:
-      - Веб-приложения
-      - Вращающиеся иконки
+      - Web Application Icons
+      - Spinner Icons
 
 
   - name:       Rebel Alliance
@@ -4439,8 +4446,9 @@ icons:
     created:    4.1
     aliases:
       - ra
+      - resistance
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Galactic Empire
     id:         empire
@@ -4449,21 +4457,21 @@ icons:
     aliases:
       - ge
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Git Square
     id:         git-square
     unicode:    f1d2
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Git
     id:         git
     unicode:    f1d3
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Hacker News
     id:         hacker-news
@@ -4473,21 +4481,21 @@ icons:
       - y-combinator-square
       - yc-square
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Tencent Weibo
     id:         tencent-weibo
     unicode:    f1d5
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       QQ
     id:         qq
     unicode:    f1d6
     created:    4.1
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Weixin (WeChat)
     id:         weixin
@@ -4496,7 +4504,7 @@ icons:
     aliases:
       - wechat
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Paper Plane
     id:         paper-plane
@@ -4504,9 +4512,8 @@ icons:
     created:    4.1
     aliases:
       - send
-    filter:
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Paper Plane Outlined
     id:         paper-plane-o
@@ -4515,21 +4522,21 @@ icons:
     aliases:
       - send-o
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       History
     id:         history
     unicode:    f1da
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Circle Outlined Thin
     id:         circle-thin
     unicode:    f1db
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       header
     id:         header
@@ -4538,14 +4545,14 @@ icons:
     filter:
       - heading
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       paragraph
     id:         paragraph
     unicode:    f1dd
     created:    4.1
     categories:
-      - Редактирование
+      - Text Editor Icons
 
   - name:       Sliders
     id:         sliders
@@ -4554,7 +4561,7 @@ icons:
     filter:
       - settings
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Share Alt
@@ -4562,23 +4569,23 @@ icons:
     unicode:    f1e0
     created:    4.1
     categories:
-      - Веб-приложения
-      - Бренды
+      - Web Application Icons
+      - Brand Icons
 
   - name:       Share Alt Square
     id:         share-alt-square
     unicode:    f1e1
     created:    4.1
     categories:
-      - Веб-приложения
-      - Бренды
+      - Web Application Icons
+      - Brand Icons
 
   - name:       Bomb
     id:         bomb
     unicode:    f1e2
     created:    4.1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Futbol Outlined
     id:         futbol-o
@@ -4587,22 +4594,22 @@ icons:
     aliases:
       - soccer-ball-o
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       TTY
     id:         tty
     unicode:    f1e4
     created:    4.2
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Binoculars
     id:         binoculars
     unicode:    f1e5
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Plug
     id:         plug
@@ -4612,28 +4619,28 @@ icons:
       - power
       - connect
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Slideshare
     id:         slideshare
     unicode:    f1e7
     created:    4.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Twitch
     id:         twitch
     unicode:    f1e8
     created:    4.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Yelp
     id:         yelp
     unicode:    f1e9
     created:    4.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Newspaper Outlined
     id:         newspaper-o
@@ -4642,37 +4649,37 @@ icons:
     filter:
       - press
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       WiFi
     id:         wifi
     unicode:    f1eb
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Calculator
     id:         calculator
     unicode:    f1ec
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Paypal
     id:         paypal
     unicode:    f1ed
     created:    4.2
     categories:
-      - Бренды
-      - Платежные системы
+      - Brand Icons
+      - Payment Icons
 
   - name:       Google Wallet
     id:         google-wallet
     unicode:    f1ee
     created:    4.2
     categories:
-      - Бренды
-      - Платежные системы
+      - Brand Icons
+      - Payment Icons
 
 
   - name:       Visa Credit Card
@@ -4680,24 +4687,24 @@ icons:
     unicode:    f1f0
     created:    4.2
     categories:
-      - Бренды
-      - Платежные системы
+      - Brand Icons
+      - Payment Icons
 
   - name:       MasterCard Credit Card
     id:         cc-mastercard
     unicode:    f1f1
     created:    4.2
     categories:
-      - Бренды
-      - Платежные системы
+      - Brand Icons
+      - Payment Icons
 
   - name:       Discover Credit Card
     id:         cc-discover
     unicode:    f1f2
     created:    4.2
     categories:
-      - Бренды
-      - Платежные системы
+      - Brand Icons
+      - Payment Icons
 
   - name:       American Express Credit Card
     id:         cc-amex
@@ -4706,38 +4713,38 @@ icons:
     filter:
       - amex
     categories:
-      - Бренды
-      - Платежные системы
+      - Brand Icons
+      - Payment Icons
 
   - name:       Paypal Credit Card
     id:         cc-paypal
     unicode:    f1f4
     created:    4.2
     categories:
-      - Бренды
-      - Платежные системы
+      - Brand Icons
+      - Payment Icons
 
   - name:       Stripe Credit Card
     id:         cc-stripe
     unicode:    f1f5
     created:    4.2
     categories:
-      - Бренды
-      - Платежные системы
+      - Brand Icons
+      - Payment Icons
 
   - name:       Bell Slash
     id:         bell-slash
     unicode:    f1f6
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Bell Slash Outlined
     id:         bell-slash-o
     unicode:    f1f7
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Trash
     id:         trash
@@ -4749,103 +4756,103 @@ icons:
       - remove
       - hide
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Copyright
     id:         copyright
     unicode:    f1f9
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       At
     id:         at
     unicode:    f1fa
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Eyedropper
     id:         eyedropper
     unicode:    f1fb
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Paint Brush
     id:         paint-brush
     unicode:    f1fc
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Birthday Cake
     id:         birthday-cake
     unicode:    f1fd
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Area Chart
     id:         area-chart
     unicode:    f1fe
     created:    4.2
-    categories:
-      - Веб-приложения
-      - Диаграммы
     filter:
       - graph
       - analytics
+    categories:
+      - Веб-приложения
+      - Диаграммы
 
   - name:       Pie Chart
     id:         pie-chart
     unicode:    f200
     created:    4.2
-    categories:
-      - Веб-приложения
-      - Диаграммы
     filter:
       - graph
       - analytics
+    categories:
+      - Веб-приложения
+      - Диаграммы
 
   - name:       Line Chart
     id:         line-chart
     unicode:    f201
     created:    4.2
-    categories:
-      - Веб-приложения
-      - Диаграммы
     filter:
       - graph
       - analytics
+    categories:
+      - Веб-приложения
+      - Диаграммы
 
   - name:       last.fm
     id:         lastfm
     unicode:    f202
     created:    4.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       last.fm Square
     id:         lastfm-square
     unicode:    f203
     created:    4.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Toggle Off
     id:         toggle-off
     unicode:    f204
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Toggle On
     id:         toggle-on
     unicode:    f205
     created:    4.2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Bicycle
     id:         bicycle
@@ -4855,8 +4862,8 @@ icons:
       - vehicle
       - bike
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       Bus
     id:         bus
@@ -4865,8 +4872,8 @@ icons:
     filter:
       - vehicle
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       ioxhost
     id:         ioxhost
@@ -4874,22 +4881,22 @@ icons:
     created:    4.2
     url:        ioxhost.co.uk
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       AngelList
     id:         angellist
     unicode:    f209
     created:    4.2
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Closed Captions
     id:         cc
     unicode:    f20a
     created:    4.2
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Shekel (ILS)
     id:         ils
@@ -4899,7 +4906,7 @@ icons:
       - shekel
       - sheqel
     categories:
-      - Валюты
+      - Currency Icons
 
   - name:       meanpath
     id:         meanpath
@@ -4907,7 +4914,7 @@ icons:
     created:    4.2
     url:        meanpath.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       BuySellAds
     id:         buysellads
@@ -4915,7 +4922,7 @@ icons:
     created:    4.3
     url:        buysellads.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Connect Develop
     id:         connectdevelop
@@ -4923,7 +4930,7 @@ icons:
     created:    4.3
     url:        connectdevelop.com
     categories:
-      - Бренды
+      - Brand Icons
 
 
   - name:       DashCube
@@ -4932,7 +4939,7 @@ icons:
     created:    4.3
     url:        dashcube.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Forumbee
     id:         forumbee
@@ -4940,7 +4947,7 @@ icons:
     created:    4.3
     url:        forumbee.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Leanpub
     id:         leanpub
@@ -4948,7 +4955,7 @@ icons:
     created:    4.3
     url:        leanpub.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Sellsy
     id:         sellsy
@@ -4956,7 +4963,7 @@ icons:
     created:    4.3
     url:        sellsy.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Shirts in Bulk
     id:         shirtsinbulk
@@ -4964,7 +4971,7 @@ icons:
     created:    4.3
     url:        shirtsinbulk.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       SimplyBuilt
     id:         simplybuilt
@@ -4972,7 +4979,7 @@ icons:
     created:    4.3
     url:        simplybuilt.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       skyatlas
     id:         skyatlas
@@ -4980,7 +4987,7 @@ icons:
     created:    4.3
     url:        skyatlas.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Add to Shopping Cart
     id:         cart-plus
@@ -4990,7 +4997,7 @@ icons:
       - add
       - shopping
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Shopping Cart Arrow Down
     id:         cart-arrow-down
@@ -4999,7 +5006,7 @@ icons:
     filter:
       - shopping
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Diamond
     id:         diamond
@@ -5009,7 +5016,7 @@ icons:
       - gem
       - gemstone
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Ship
     id:         ship
@@ -5019,8 +5026,8 @@ icons:
       - boat
       - sea
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       User Secret
     id:         user-secret
@@ -5032,7 +5039,7 @@ icons:
       - incognito
       - privacy
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Motorcycle
     id:         motorcycle
@@ -5042,8 +5049,8 @@ icons:
       - vehicle
       - bike
     categories:
-      - Веб-приложения
-      - Транспорт
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       Street View
     id:         street-view
@@ -5052,7 +5059,7 @@ icons:
     filter:
       - map
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Heartbeat
     id:         heartbeat
@@ -5061,8 +5068,8 @@ icons:
     filter:
       - ekg
     categories:
-      - Веб-приложения
-      - Медицина
+      - Web Application Icons
+      - Medical Icons
 
 
   - name:       Venus
@@ -5072,7 +5079,7 @@ icons:
     filter:
       - female
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Mars
     id:         mars
@@ -5081,7 +5088,7 @@ icons:
     filter:
       - male
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Mercury
     id:         mercury
@@ -5090,7 +5097,7 @@ icons:
     filter:
       - transgender
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Transgender
     id:         transgender
@@ -5099,70 +5106,70 @@ icons:
     aliases:
       - intersex
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Transgender Alt
     id:         transgender-alt
     unicode:    f225
     created:    4.3
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Venus Double
     id:         venus-double
     unicode:    f226
     created:    4.3
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Mars Double
     id:         mars-double
     unicode:    f227
     created:    4.3
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Venus Mars
     id:         venus-mars
     unicode:    f228
     created:    4.3
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Mars Stroke
     id:         mars-stroke
     unicode:    f229
     created:    4.3
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Mars Stroke Vertical
     id:         mars-stroke-v
     unicode:    f22a
     created:    4.3
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Mars Stroke Horizontal
     id:         mars-stroke-h
     unicode:    f22b
     created:    4.3
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Neuter
     id:         neuter
     unicode:    f22c
     created:    4.3
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
   - name:       Genderless
     id:         genderless
     unicode:    f22d
     created:    4.4
     categories:
-      - Гендерные иконки
+      - Gender Icons
 
 
   - name:       Facebook Official
@@ -5170,28 +5177,28 @@ icons:
     unicode:    f230
     created:    4.3
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Pinterest P
     id:         pinterest-p
     unicode:    f231
     created:    4.3
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       What's App
     id:         whatsapp
     unicode:    f232
     created:    4.3
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Server
     id:         server
     unicode:    f233
     created:    4.3
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Add User
     id:         user-plus
@@ -5201,14 +5208,14 @@ icons:
       - sign up
       - signup
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Remove User
     id:         user-times
     unicode:    f235
     created:    4.3
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Bed
     id:         bed
@@ -5219,7 +5226,7 @@ icons:
     aliases:
       - hotel
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Viacoin
     id:         viacoin
@@ -5227,28 +5234,28 @@ icons:
     created:    4.3
     url:        viacoin.org
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Train
     id:         train
     unicode:    f238
     created:    4.3
     categories:
-      - Транспорт
+      - Transportation Icons
 
   - name:       Subway
     id:         subway
     unicode:    f239
     created:    4.3
     categories:
-      - Транспорт
+      - Transportation Icons
 
   - name:       Medium
     id:         medium
     unicode:    f23a
     created:    4.3
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Y Combinator
     id:         y-combinator
@@ -5257,7 +5264,7 @@ icons:
     aliases:
       - yc
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Optin Monster
     id:         optin-monster
@@ -5265,7 +5272,7 @@ icons:
     created:    4.4
     url:        optinmonster.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       OpenCart
     id:         opencart
@@ -5273,14 +5280,14 @@ icons:
     created:    4.4
     url:        opencart.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       ExpeditedSSL
     id:         expeditedssl
     unicode:    f23e
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
 
   - name:       Battery Full
@@ -5292,7 +5299,7 @@ icons:
     filter:
       - power
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Battery 3/4 Full
     id:         battery-three-quarters
@@ -5303,7 +5310,7 @@ icons:
     filter:
       - power
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Battery 1/2 Full
     id:         battery-half
@@ -5314,7 +5321,7 @@ icons:
     filter:
       - power
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Battery 1/4 Full
     id:         battery-quarter
@@ -5325,7 +5332,7 @@ icons:
     filter:
       - power
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Battery Empty
     id:         battery-empty
@@ -5336,65 +5343,65 @@ icons:
     filter:
       - power
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Mouse Pointer
     id:         mouse-pointer
     unicode:    f245
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       I Beam Cursor
     id:         i-cursor
     unicode:    f246
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Object Group
     id:         object-group
     unicode:    f247
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Object Ungroup
     id:         object-ungroup
     unicode:    f248
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Sticky Note
     id:         sticky-note
     unicode:    f249
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Sticky Note Outlined
     id:         sticky-note-o
     unicode:    f24a
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       JCB Credit Card
     id:         cc-jcb
     unicode:    f24b
     created:    4.4
     categories:
-      - Бренды
-      - Платежные системы
+      - Brand Icons
+      - Payment Icons
 
   - name:       Diner's Club Credit Card
     id:         cc-diners-club
     unicode:    f24c
     created:    4.4
     categories:
-      - Бренды
-      - Платежные системы
+      - Brand Icons
+      - Payment Icons
 
   - name:       Clone
     id:         clone
@@ -5403,14 +5410,14 @@ icons:
     filter:
       - copy
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Balance Scale
     id:         balance-scale
     unicode:    f24e
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       Hourglass Outlined
@@ -5418,7 +5425,7 @@ icons:
     unicode:    f250
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Hourglass Start
     id:         hourglass-start
@@ -5427,7 +5434,7 @@ icons:
     aliases:
       - hourglass-1
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Hourglass Half
     id:         hourglass-half
@@ -5436,7 +5443,7 @@ icons:
     aliases:
       - hourglass-2
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Hourglass End
     id:         hourglass-end
@@ -5445,14 +5452,14 @@ icons:
     aliases:
       - hourglass-3
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Hourglass
     id:         hourglass
     unicode:    f254
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Rock (Hand)
     id:         hand-rock-o
@@ -5461,8 +5468,8 @@ icons:
     aliases:
       - hand-grab-o
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       Paper (Hand)
     id:         hand-paper-o
@@ -5473,69 +5480,69 @@ icons:
     filter:
       - stop
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       Scissors (Hand)
     id:         hand-scissors-o
     unicode:    f257
     created:    4.4
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       Lizard (Hand)
     id:         hand-lizard-o
     unicode:    f258
     created:    4.4
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       Spock (Hand)
     id:         hand-spock-o
     unicode:    f259
     created:    4.4
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       Hand Pointer
     id:         hand-pointer-o
     unicode:    f25a
     created:    4.4
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       Hand Peace
     id:         hand-peace-o
     unicode:    f25b
     created:    4.4
     categories:
-      - Веб-приложения
-      - Иконки жестов
+      - Web Application Icons
+      - Hand Icons
 
   - name:       Trademark
     id:         trademark
     unicode:    f25c
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Registered Trademark
     id:         registered
     unicode:    f25d
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Creative Commons
     id:         creative-commons
     unicode:    f25e
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
 
   - name:       GG Currency
@@ -5543,51 +5550,51 @@ icons:
     unicode:    f260
     created:    4.4
     categories:
-      - Валюты
-      - Бренды
+      - Currency Icons
+      - Brand Icons
 
   - name:       GG Currency Circle
     id:         gg-circle
     unicode:    f261
     created:    4.4
     categories:
-      - Валюты
-      - Бренды
+      - Currency Icons
+      - Brand Icons
 
   - name:       TripAdvisor
     id:         tripadvisor
     unicode:    f262
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Odnoklassniki
     id:         odnoklassniki
     unicode:    f263
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Odnoklassniki Square
     id:         odnoklassniki-square
     unicode:    f264
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Get Pocket
     id:         get-pocket
     unicode:    f265
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Wikipedia W
     id:         wikipedia-w
     unicode:    f266
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Safari
     id:         safari
@@ -5596,7 +5603,7 @@ icons:
     filter:
       - browser
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Chrome
     id:         chrome
@@ -5605,7 +5612,7 @@ icons:
     filter:
       - browser
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Firefox
     id:         firefox
@@ -5614,14 +5621,14 @@ icons:
     filter:
       - browser
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Opera
     id:         opera
     unicode:    f26a
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Internet-explorer
     id:         internet-explorer
@@ -5631,7 +5638,7 @@ icons:
       - browser
       - ie
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Television
     id:         television
@@ -5644,21 +5651,21 @@ icons:
       - computer
       - monitor
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Contao
     id:         contao
     unicode:    f26d
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       500px
     id:         500px
     unicode:    f26e
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
 
   - name:       Amazon
@@ -5666,28 +5673,28 @@ icons:
     unicode:    f270
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Calendar Plus Outlined
     id:         calendar-plus-o
     unicode:    f271
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Calendar Minus Outlined
     id:         calendar-minus-o
     unicode:    f272
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Calendar Times Outlined
     id:         calendar-times-o
     unicode:    f273
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Calendar Check Outlined
     id:         calendar-check-o
@@ -5696,7 +5703,7 @@ icons:
     filter:
       - ok
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Industry
     id:         industry
@@ -5705,67 +5712,85 @@ icons:
     filter:
       - factory
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Map Pin
     id:         map-pin
     unicode:    f276
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Map Signs
     id:         map-signs
     unicode:    f277
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
-  - name:       Map Outline
+  - name:       Map Outlined
     id:         map-o
     unicode:    f278
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Map
     id:         map
     unicode:    f279
     created:    4.4
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Commenting
     id:         commenting
     unicode:    f27a
     created:    4.4
     filter:
+      - speech
+      - notification
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
+      - texting
+      - sms
+      - conversation
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Commenting Outlined
     id:         commenting-o
     unicode:    f27b
     created:    4.4
     filter:
+      - speech
+      - notification
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
+      - texting
+      - sms
+      - conversation
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Houzz
     id:         houzz
     unicode:    f27c
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Vimeo
     id:         vimeo
     unicode:    f27d
     created:    4.4
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Font Awesome Black Tie
     id:         black-tie
@@ -5773,7 +5798,7 @@ icons:
     created:    4.4
     url:        blacktie.io
     categories:
-      - Бренды
+      - Brand Icons
 
 
   - name:       Fonticons
@@ -5782,14 +5807,14 @@ icons:
     created:    4.4
     url:        fonticons.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       reddit Alien
     id:         reddit-alien
     unicode:    f281
     created:    4.5
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Edge Browser
     id:         edge
@@ -5799,7 +5824,7 @@ icons:
       - browser
       - ie
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Credit Card
     id:         credit-card-alt
@@ -5814,8 +5839,8 @@ icons:
       - payment
       - credit card
     categories:
-      - Веб-приложения
-      - Платежные системы
+      - Payment Icons
+      - Web Application Icons
 
   - name:       Codie Pie
     id:         codiepie
@@ -5823,77 +5848,78 @@ icons:
     created:    4.5
     url:        codiepie.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       MODX
     id:         modx
     unicode:    f285
     created:    4.5
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Fort Awesome
     id:         fort-awesome
     unicode:    f286
     created:    4.5
+    url:        fortawesome.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       USB
     id:         usb
     unicode:    f287
     created:    4.5
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Product Hunt
     id:         product-hunt
     unicode:    f288
     created:    4.5
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Mixcloud
     id:         mixcloud
     unicode:    f289
     created:    4.5
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Scribd
     id:         scribd
     unicode:    f28a
     created:    4.5
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Pause Circle
     id:         pause-circle
     unicode:    f28b
     created:    4.5
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       Pause Circle Outlined
     id:         pause-circle-o
     unicode:    f28c
     created:    4.5
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       Stop Circle
     id:         stop-circle
     unicode:    f28d
     created:    4.5
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
   - name:       Stop Circle Outlined
     id:         stop-circle-o
     unicode:    f28e
     created:    4.5
     categories:
-      - Видео-плеер
+      - Video Player Icons
 
 
   - name:       Shopping Bag
@@ -5901,44 +5927,45 @@ icons:
     unicode:    f290
     created:    4.5
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Shopping Basket
     id:         shopping-basket
     unicode:    f291
     created:    4.5
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Hashtag
     id:         hashtag
     unicode:    f292
     created:    4.5
     categories:
-      - Веб-приложения
+      - Web Application Icons
 
   - name:       Bluetooth
     id:         bluetooth
     unicode:    f293
     created:    4.5
     categories:
-      - Веб-приложения
-      - Бренды
+      - Web Application Icons
+      - Brand Icons
 
   - name:       Bluetooth
     id:         bluetooth-b
     unicode:    f294
     created:    4.5
     categories:
-      - Веб-приложения
-      - Бренды
+      - Web Application Icons
+      - Brand Icons
 
   - name:       Percent
     id:         percent
     unicode:    f295
     created:    4.5
     categories:
-      - Веб-приложения
+      - Web Application Icons
+
 
   - name:       GitLab
     id:         gitlab
@@ -5946,7 +5973,7 @@ icons:
     created:    4.6
     url:        gitlab.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       WPBeginner
     id:         wpbeginner
@@ -5954,7 +5981,7 @@ icons:
     created:    4.6
     url:        wpbeginner.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       WPForms
     id:         wpforms
@@ -5962,7 +5989,7 @@ icons:
     created:    4.6
     url:        wpforms.com
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Envira Gallery
     id:         envira
@@ -5972,47 +5999,47 @@ icons:
     filter:
       - leaf
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Universal Access
     id:         universal-access
     unicode:    f29a
     created:    4.6
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Wheelchair Alt
     id:         wheelchair-alt
     unicode:    f29b
     created:    4.6
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Question Circle Outlined
     id:         question-circle-o
     unicode:    f29c
     created:    4.6
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Blind
     id:         blind
     unicode:    f29d
     created:    4.6
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Audio Description
     id:         audio-description
     unicode:    f29e
     created:    4.6
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
 
   - name:       Volume Control Phone
@@ -6020,24 +6047,24 @@ icons:
     unicode:    f2a0
     created:    4.6
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Braille
     id:         braille
     unicode:    f2a1
     created:    4.6
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Assistive Listening Systems
     id:         assistive-listening-systems
     unicode:    f2a2
     created:    4.6
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       American Sign Language Interpreting
     id:         american-sign-language-interpreting
@@ -6046,8 +6073,8 @@ icons:
     aliases:
       - asl-interpreting
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Deaf
     id:         deaf
@@ -6057,22 +6084,22 @@ icons:
       - deafness
       - hard-of-hearing
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Glide
     id:         glide
     unicode:    f2a5
     created:    4.6
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Glide G
     id:         glide-g
     unicode:    f2a6
     created:    4.6
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Sign Language
     id:         sign-language
@@ -6081,8 +6108,8 @@ icons:
     aliases:
       - signing
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
 
   - name:       Low Vision
@@ -6090,40 +6117,89 @@ icons:
     unicode:    f2a8
     created:    4.6
     categories:
-      - Веб-приложения
-      - Ограничения
+      - Web Application Icons
+      - Accessibility Icons
 
   - name:       Viadeo
     id:         viadeo
     unicode:    f2a9
     created:    4.6
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Viadeo Square
     id:         viadeo-square
     unicode:    f2aa
     created:    4.6
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Snapchat
     id:         snapchat
     unicode:    f2ab
     created:    4.6
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Snapchat Ghost
     id:         snapchat-ghost
     unicode:    f2ac
     created:    4.6
     categories:
-      - Бренды
+      - Brand Icons
 
   - name:       Snapchat Square
     id:         snapchat-square
     unicode:    f2ad
     created:    4.6
     categories:
-      - Бренды
+      - Brand Icons
+
+  - name:       Pied Piper Logo
+    id:         pied-piper
+    unicode:    f2ae
+    created:    4.6
+    categories:
+      - Brand Icons
+
+
+  - name:       First Order
+    id:         first-order
+    unicode:    f2b0
+    created:    4.6
+    categories:
+      - Brand Icons
+
+  - name:       Yoast
+    id:         yoast
+    unicode:    f2b1
+    created:    4.6
+    url:        yoast.com
+    categories:
+      - Brand Icons
+
+  - name:       ThemeIsle
+    id:         themeisle
+    unicode:    f2b2
+    created:    4.6
+    url:        themeisle.com
+    categories:
+      - Brand Icons
+
+  - name:       Google Plus Official
+    id:         google-plus-official
+    unicode:    f2b3
+    created:    4.6
+    aliases:
+      - google-plus-circle
+    categories:
+      - Brand Icons
+
+  - name:       Font Awesome
+    id:         font-awesome
+    unicode:    f2b4
+    created:    4.6
+    aliases:
+      - fa
+    categories:
+      - Brand Icons

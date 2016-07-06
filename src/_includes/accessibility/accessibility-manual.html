@@ -1,13 +1,14 @@
-<div id="using-with-accessibility">
-  <h2 class="page-header">Использование Font Awesome в направлении общедоступности</h2>
-  <p>
-    Когда используете иконки в вашем интерфейсе, то есть несколько способов помочь вспомогательным технологиям проигнорировать
-    или лучше понять Font Awesome.
-  </p>
+<section id="accessibility-manual" class="accessibility-manual">
 
-  <h3>Иконки, используемые для декорирования или визуального стиля</h3>
-  <p>
-    Если иконка используется для декорирования или отображения бренда, то они не должны быть объявлены общедоступно, тк
+  <h3>
+    <i class="gg-col fa fa-wrench text-muted fa-lg padding-right" aria-hidden="true"></i>
+    Manually make your icons accessible
+  </h3>
+
+  <p>When using icons in your UI, there are manual techniques and ways to help assistive technology either ignore or better understand Font Awesome.</p>
+
+  <h4 class="margin-top-xl">Icons used for pure decoration or visual styling</h4>
+  <p>Если иконка используется для декорирования или отображения бренда, то они не должны быть объявлены общедоступно, тк
     они влияют на приложения, читающие сайты в слух. Кроме того, если вы используете иконки, чтобы визуально подчеркнуть
     или добавить стиль контенту, то в существующем HTML они не должны быть продублированы в описании для вспомогательных
     технологий, используемых пользователем. Вы можете убедиться в том, что элемент не читается, добавив ему атрибут
@@ -38,7 +39,7 @@
 <small class="text-muted">иконка используется перед текстом ссылки</small>
   </div>
 
-  <h3>Иконки с семантической или интерактивной целью</h3>
+  <h4 class="margin-top-xl">Иконки с семантической или интерактивной целью</h3>
   <p>
     Если вы используете иконку для того, чтобы передать смысл (а не только в качестве декоративного элемента), убедитесь,
     что значение иконки также передается вспомогательным технологиям. Это касается контента, который вы сокращаете с помощью
@@ -46,7 +47,7 @@
     для выполнения этой задачи:
   </p>
 
-  <h4>Если иконка <strong>не</strong> является интерактивным элементом</h4>
+  <h4 class="margin-top-xl text-muted">Если иконка <strong>не</strong> является интерактивным элементом</h4>
   <p>
     The simplest way to provide a text alternative is to use the <code>aria-hidden="true"</code> attribute on the icon and to include the text with an additional element, such as a <code>&lt;span&gt;</code>, with appropriate CSS to visually hide the element while keeping it accessible to assistive technologies. In addition, you can add a <code>title</code> attribute on the icon to provide a tooltip for sighted mouse users.
   </p>
@@ -84,7 +85,7 @@
     <small class="text-muted">an icon being used to denote time remaining</small>
   </div>
 
-  <h4>If an icon represents an interactive element</h4>
+  <h4 class="margin-top-xl text-muted">If an icon represents an interactive element</h4>
   <p>
     In the case of focusable interactive elements, there are various options to include an alternative text or label to the element, without the need for any visually hidden <code>&lt;span&gt;</code> or similar. For instance, simply adding the <code>title</code> attribute to the interactive element itself will be sufficient to provide an accessible alternative name for the element, as well as providing the mouse tooltip.
   </p>
@@ -114,22 +115,14 @@
     <small class="text-muted">an icon being used as a delete button's symbol</small>
 
   </div>
-</div>
 
-<div class="alert alert-success">
-  <ul class="fa-ul margin-bottom-none">
-    <li>
-      <i class="fa-li fa fa-info-circle fa-lg" aria-hidden="true"></i>
-      Bootstrap comes with a <a href="http://getbootstrap.com/css/#callout-has-feedback-icon-accessibility">utility class to visually hide content, but keep it semantically accessible</a>. If you're not using Bootstrap, there are <a href="https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/">plenty</a> of <a href="https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L124">recipes</a> to roll your own from.
-    </li>
-  </ul>
-</div>
 
-<div class="alert alert-success">
-  <ul class="fa-ul margin-bottom-none">
-    <li>
-      <i class="fa-li fa fa-info-circle fa-lg" aria-hidden"true"></i>
-      <a href="{{ page.relative_path }}examples/#accessible">See more examples of how to add accessibility-minded icons</a> into your UI.
-    </li>
-  </ul>
-</div>
+  <div class="alert alert-success">
+    <ul class="fa-ul margin-bottom-none">
+      <li>
+        <i class="fa-li fa fa-info-circle fa-lg" aria-hidden"true"></i>
+        <a href="{{ page.relative_path }}examples/#accessible">See more examples of how to add accessibility-minded icons</a> into your UI.
+      </li>
+    </ul>
+  </div>
+</section>
