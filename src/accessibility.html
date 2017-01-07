@@ -2,29 +2,39 @@
 layout: base
 title: Font Awesome и Общедоступность
 navbar_active: accessibility
+view_class: v-accessibility
 relative_path: ../
 ---
 {% capture jumbotron_h1 %}<i class="fa fa-universal-access" aria-hidden="true"></i>&nbsp; Общедоступность{% endcapture %}
 {% capture jumbotron_p %}Сделайте ваши иконки прекрасными для всех ваших пользователей{% endcapture %}
 
 {% include jumbotron.html %}
-{% include stripe-social.html %}
 
 <div class="container">
-  {% capture stripe_ad_content %}
-  <p class="lead">
-    Иконки - символы, которые могут передать тонны информации и очень помогают людям понять направления, знаки и интерфейсы.
-    Поэтому важно создавать их такими, чтобы они были доступны большинсту пользователей.
-  </p>
+  <section id="accessibility-intro" class="accessibility-intro">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="lead">
+            Иконки - символы, которые могут передать тонны информации и очень помогают людям понять направления, знаки и интерфейсы.
+            Поэтому важно создавать их такими, чтобы они были доступны большинсту пользователей.
+        </p>
+      </div>
+      <div class="col-md-6">
+          {% include accessibility/background.html %}
+      </div>
+    </div>
+  </section>
 
-  <p class="lead">
-    При создании веб-сайтов и приложений мы должны быть уверены, что наши иконки хорошо интегрированы с интерактивными
-    технологиями, когда пользователи начнут ими пользоваться.
-  </p>
-  {% endcapture %}
-  {% include stripe-ad.html %}
+  <h2 class="page-header">
+    Используйте Font Awesome с расчетом на общедоступность
+  </h2>
 
-  {% include accessibility/background.html %}
-  {% include accessibility/using-with-accessibility.html %}
+  {% include accessibility/accessibility-facdn.html %}
+
+  <div class="hr margin-top-xl">
+    <span class="hr-text text-xl text-muted">или</span>
+  </div>
+
+  {% include accessibility/accessibility-manual.html %}
   {% include accessibility/other.html %}
 </div>

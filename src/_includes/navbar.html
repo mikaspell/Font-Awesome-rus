@@ -5,7 +5,7 @@
         <span id="rotating-message"></span>
       </div>
       <div class="action">
-        <a id="rotating-url" class="btn btn-primary btn-block" href=""></a>
+        <a id="rotating-url" class="btn btn-primary btn-lg btn-block" href="" target="_blank"></a>
       </div>
     </div>
   </div>
@@ -18,7 +18,7 @@
         <i class="fa fa-bars fa-lg" aria-hidden="true" title="Toggle navigation"></i>
         <span class="sr-only">Развернуть меню</span>
       </button>
-      <a class="navbar-brand" href="{{ page.relative_path }}"><i class="fas fas-flag-logo fas-lg" aria-hidden="true"></i> Font Awesome</a>
+      <a class="navbar-brand" href="{{ page.relative_path }}"><i class="fa fa-font-awesome" aria-hidden="true"></i> Font Awesome</a>
     </div>
 
     <div class="navbar-collapse collapse">
@@ -61,7 +61,7 @@
             <li><a href="{{ page.relative_path }}all-icons/#text-editor"><i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>&nbsp; Редактирование</a></li>
             <li><a href="{{ page.relative_path }}all-icons/#directional"><i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i>&nbsp; Направление</a></li>
             <li><a href="{{ page.relative_path }}all-icons/#video-player"><i class="fa fa-play-circle fa-fw" aria-hidden="true"></i>&nbsp; Видео-плеер</a></li>
-            <li><a href="{{ page.relative_path }}all-icons/#brand"><i class="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp; Бренды</a></li>
+            <li><a href="{{ page.relative_path }}all-icons/#brand"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>&nbsp; Бренды</a></li>
             <li><a href="{{ page.relative_path }}all-icons/#medical"><i class="fa fa-medkit fa-fw" aria-hidden="true"></i>&nbsp; Медицина</a></li>
           </ul>
         </li>
@@ -92,10 +92,6 @@
         <li class="hidden-xs hidden-md hidden-lg{% if page.navbar_active == "accessibility" %} active{% endif %}"><a href="{{ page.relative_path }}accessibility/"><i class="fa fa-universal-access"></i></a></li>
         <li{% if page.navbar_active == "community" %} class="active"{% endif %}><a href="{{ page.relative_path }}community/">Сообщество</a></li>
         <li{% if page.navbar_active == "license" %} class="active"{% endif %}><a href="{{ page.relative_path }}license/">Лицензии</a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li{% if page.navbar_active == "store" %} class="active"{% endif %}><a href="{{ page.relative_path }}store/"><i class="fa fa-shopping-cart margin-right-sm hidden-sm hidden-md"></i>Магазин</a></li>
       </ul>
     </div>
   </div>
