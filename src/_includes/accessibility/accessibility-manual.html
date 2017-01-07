@@ -2,18 +2,20 @@
 
   <h3>
     <i class="gg-col fa fa-wrench text-muted fa-lg padding-right" aria-hidden="true"></i>
-    Manually make your icons accessible
+    Как сделать иконки общедоступными самому
   </h3>
 
-  <p>When using icons in your UI, there are manual techniques and ways to help assistive technology either ignore or better understand Font Awesome.</p>
+  <p>Когда используете иконки в вашем интерфейсе, то данный мануал подскажет вам как помочь вспомогательным технологиям проигнорировать
+      или лучше понять Font Awesome.</p>
 
-  <h4 class="margin-top-xl">Icons used for pure decoration or visual styling</h4>
-  <p>Если иконка используется для декорирования или отображения бренда, то они не должны быть объявлены общедоступно, тк
-    они влияют на приложения, читающие сайты в слух. Кроме того, если вы используете иконки, чтобы визуально подчеркнуть
-    или добавить стиль контенту, то в существующем HTML они не должны быть продублированы в описании для вспомогательных
-    технологий, используемых пользователем. Вы можете убедиться в том, что элемент не читается, добавив ему атрибут
-    <code>aria-hidden="true"</code>.
-  </p>
+  <h4 class="margin-top-xl">Иконки, используемые для декорирования или визуального стиля</h4>
+    <p>
+        Если иконка используется для декорирования или отображения бренда, то они не должны быть объявлены общедоступно, тк
+        они влияют на приложения, читающие сайты в слух. Кроме того, если вы используете иконки, чтобы визуально подчеркнуть
+        или добавить стиль контенту, то в существующем HTML они не должны быть продублированы в описании для вспомогательных
+        технологий, используемых пользователем. Вы можете убедиться в том, что элемент не читается, добавив ему атрибут
+        <code>aria-hidden="true"</code>.
+    </p>
 
   <div class="margin-top-lg margin-bottom-lg">
 {% highlight html %}
@@ -39,7 +41,7 @@
 <small class="text-muted">иконка используется перед текстом ссылки</small>
   </div>
 
-  <h4 class="margin-top-xl">Иконки с семантической или интерактивной целью</h3>
+  <h4 class="margin-top-xl">Иконки с семантической или интерактивной целью</h4>
   <p>
     Если вы используете иконку для того, чтобы передать смысл (а не только в качестве декоративного элемента), убедитесь,
     что значение иконки также передается вспомогательным технологиям. Это касается контента, который вы сокращаете с помощью
@@ -87,12 +89,12 @@
 
   <h4 class="margin-top-xl text-muted">If an icon represents an interactive element</h4>
   <p>
-    In the case of focusable interactive elements, there are various options to include an alternative text or label to the element, without the need for any visually hidden <code>&lt;span&gt;</code> or similar. For instance, simply adding the <code>title</code> attribute to the interactive element itself will be sufficient to provide an accessible alternative name for the element, as well as providing the mouse tooltip.
+    In the case of focusable interactive elements, there are various options to include an alternative text or label to the element, without the need for any visually hidden <code>&lt;span&gt;</code> or similar. For instance, simply adding the <code>aria-label</code> attribute with a text description to the interactive element itself will be sufficient to provide an accessible alternative name for the element. If you need to provide a visual tooltip on mouseover/focus, we recommend additionally using the <code>title</code> attribute or a <a href="https://github.com/chinchang/hint.css">custom tooltip</a> solution.
   </p>
 
   <div class="margin-bottom-lg margin-top-lg">
 {% highlight html %}
-<a href="path/to/shopping/cart" title="View 3 items in your shopping cart">
+<a href="path/to/shopping/cart" aria-label="View 3 items in your shopping cart">
   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
 </a>
 {% endhighlight %}
@@ -101,19 +103,20 @@
 
   <div class="margin-bottom-lg margin-top-lg">
 {% highlight html %}
-<a href="#navigation-main" title="Skip to main navigation">
+<a href="#navigation-main" aria-label="Skip to main navigation">
   <i class="fa fa-bars" aria-hidden="true"></i>
 </a>
 {% endhighlight %}
     <small class="text-muted">an icon being used as a link to a navigation menu</small>
+  </div>
 
+  <div class="margin-bottom-lg margin-top-lg">
 {% highlight html %}
-<a class="btn btn-danger" href="path/to/settings" title="Delete">
-  <i class="fa fa-trash-o" aria-hidden="true"></i>
+<a class="btn btn-danger" href="path/to/settings" aria-label="Delete">
+  <i class="fa fa-trash-o" aria-hidden="true" title="Delete this item?"></i>
 </a>
 {% endhighlight %}
-    <small class="text-muted">an icon being used as a delete button's symbol</small>
-
+    <small class="text-muted">an icon being used as a delete button's symbol with a <code>title</code> attribute to provide a native mouse tooltip</small>
   </div>
 
 

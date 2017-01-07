@@ -39,14 +39,13 @@
   </script>
 </head>
 <body class="font-awesome {{ page.view_class }}">
-<div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
-  {% include navbar.html %}
+  <div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
+    {% include navbar.html %}
 
     {{ content }}
-
   </div>
   {% include footer.html %}
-
+  {% include modals/fa5.html %}
   <script src="https://platform.twitter.com/widgets.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ site.jquery.version }}/jquery.min.js"></script>
   <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/{{ site.jquery_validate.version }}/jquery.validate.min.js"></script>
