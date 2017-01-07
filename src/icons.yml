@@ -6174,7 +6174,7 @@ icons:
     unicode:    f2ae
     created:    4.6
     categories:
-      - Brand Icons
+      - Бренды
 
 
   - name:       First Order
@@ -6182,7 +6182,7 @@ icons:
     unicode:    f2b0
     created:    4.6
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Yoast
     id:         yoast
@@ -6190,7 +6190,7 @@ icons:
     created:    4.6
     url:        yoast.com
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       ThemeIsle
     id:         themeisle
@@ -6198,7 +6198,7 @@ icons:
     created:    4.6
     url:        themeisle.com
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Google Plus Official
     id:         google-plus-official
@@ -6207,7 +6207,7 @@ icons:
     aliases:
       - google-plus-circle
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Font Awesome
     id:         font-awesome
@@ -6216,28 +6216,28 @@ icons:
     aliases:
       - fa
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Handshake Outlined
     id:         handshake-o
     unicode:    f2b5
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Envelope Open
     id:         envelope-open
     unicode:    f2b6
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Envelope Open Outlined
     id:         envelope-open-o
     unicode:    f2b7
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Linode
     id:         linode
@@ -6245,21 +6245,21 @@ icons:
     created:    4.7
     url:        linode.com
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Address Book
     id:         address-book
     unicode:    f2b9
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Address Book Outlined
     id:         address-book-o
     unicode:    f2ba
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Address Card
     id:         address-card
@@ -6268,7 +6268,7 @@ icons:
     aliases:
       - vcard
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Address Card Outlined
     id:         address-card-o
@@ -6277,21 +6277,21 @@ icons:
     aliases:
       - vcard-o
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       User Circle
     id:         user-circle
     unicode:    f2bd
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       User Circle Outlined
     id:         user-circle-o
     unicode:    f2be
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
 
   - name:       User Outlined
@@ -6299,14 +6299,14 @@ icons:
     unicode:    f2c0
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Identification Badge
     id:         id-badge
     unicode:    f2c1
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Identification Card
     id:         id-card
@@ -6315,7 +6315,7 @@ icons:
     aliases:
       - drivers-license
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Identification Card Outlined
     id:         id-card-o
@@ -6324,28 +6324,28 @@ icons:
     aliases:
       - drivers-license-o
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Quora
     id:         quora
     unicode:    f2c4
     created:    4.7
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Free Code Camp
     id:         free-code-camp
     unicode:    f2c5
     created:    4.7
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Telegram
     id:         telegram
     unicode:    f2c6
     created:    4.7
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Thermometer Full
     id:         thermometer-full
@@ -6355,7 +6355,7 @@ icons:
       - thermometer-4
       - thermometer
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Thermometer 3/4 Full
     id:         thermometer-three-quarters
@@ -6364,7 +6364,7 @@ icons:
     aliases:
       - thermometer-3
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Thermometer 1/2 Full
     id:         thermometer-half
@@ -6373,7 +6373,7 @@ icons:
     aliases:
       - thermometer-2
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Thermometer 1/4 Full
     id:         thermometer-quarter
@@ -6382,7 +6382,7 @@ icons:
     aliases:
       - thermometer-1
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Thermometer Empty
     id:         thermometer-empty
@@ -6391,14 +6391,14 @@ icons:
     aliases:
       - thermometer-0
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Shower
     id:         shower
     unicode:    f2cc
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Bath
     id:         bath
@@ -6408,14 +6408,14 @@ icons:
       - bathtub
       - s15
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Podcast
     id:         podcast
     unicode:    f2ce
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
 
   - name:       Window Maximize
@@ -6423,21 +6423,21 @@ icons:
     unicode:    f2d0
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Window Minimize
     id:         window-minimize
     unicode:    f2d1
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Window Restore
     id:         window-restore
     unicode:    f2d2
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Window Close
     id:         window-close
@@ -6446,7 +6446,7 @@ icons:
     aliases:
       - times-rectangle
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Window Close Outline
     id:         window-close-o
@@ -6455,42 +6455,42 @@ icons:
     aliases:
       - times-rectangle-o
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Bandcamp
     id:         bandcamp
     unicode:    f2d5
     created:    4.7
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Grav
     id:         grav
     unicode:    f2d6
     created:    4.7
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Etsy
     id:         etsy
     unicode:    f2d7
     created:    4.7
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       IMDB
     id:         imdb
     unicode:    f2d8
     created:    4.7
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Ravelry
     id:         ravelry
     unicode:    f2d9
     created:    4.7
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Eercast
     id:         eercast
@@ -6498,21 +6498,21 @@ icons:
     created:    4.7
     url:        eercast.com
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       Microchip
     id:         microchip
     unicode:    f2db
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Snowflake Outlined
     id:         snowflake-o
     unicode:    f2dc
     created:    4.7
     categories:
-      - Web Application Icons
+      - Веб-приложения
 
   - name:       Superpowers
     id:         superpowers
@@ -6520,7 +6520,7 @@ icons:
     created:    4.7
     url:        superpowers.io
     categories:
-      - Brand Icons
+      - Бренды
 
   - name:       WPExplorer
     id:         wpexplorer
@@ -6528,7 +6528,7 @@ icons:
     created:    4.7
     url:        wpexplorer.com
     categories:
-      - Brand Icons
+      - Бренды
 
 
   - name:       Meetup
@@ -6536,4 +6536,4 @@ icons:
     unicode:    f2e0
     created:    4.7
     categories:
-      - Brand Icons
+      - Бренды

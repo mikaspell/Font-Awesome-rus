@@ -3,10 +3,10 @@ $(function () {
 
   var ads = [
     {
-      quote: "Pre-order and get Font Awesome 5 Pro and <strong>ALL</strong> stretch goals for just $40!",
+      quote: "Сделай предзаказ и получи Font Awesome 5 Pro и <strong>ВСЕ</strong> векторные исходники всего за $40!",
       class: "fa5",
       url: "http://five.fontawesome.com",
-      btn_text: "Pre-order FA Pro! &nbsp;<i class='fa fa-external-link'></i>",
+      btn_text: "Заказать FA Pro! &nbsp;<i class='fa fa-external-link'></i>"
     }
   ];
 
